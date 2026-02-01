@@ -5,23 +5,20 @@
 	(uuid "fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44")
 	(paper "A4")
 	(lib_symbols
-		(symbol "kekw:nRF52840_Connect_Kit"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "0_graz_symbols:nRF52840_MCU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 54.61 0)
+			(property "Reference" "U"
+				(at -11.176 29.972 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "nRF52840_Connect_Kit"
-				(at 0 52.07 0)
+			(property "Value" "nRF52840_MCU"
+				(at 8.128 -27.432 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -46,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "nRF52840 Connect Kit 2x20 Header"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,33 +52,24 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "nRF52840 Nordic Bluetooth BLE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "nRF52840_Connect_Kit_0_1"
+			(symbol "nRF52840_MCU_0_1"
 				(rectangle
-					(start -12.7 50.8)
-					(end 12.7 -50.8)
+					(start -12.7 27.94)
+					(end 12.7 -25.4)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 			)
-			(symbol "nRF52840_Connect_Kit_1_1"
-				(pin power_in line
-					(at -15.24 48.26 0)
+			(symbol "nRF52840_MCU_1_1"
+				(pin input line
+					(at -15.24 25.4 0)
 					(length 2.54)
-					(name "VSYS"
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -96,10 +84,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -15.24 45.72 0)
+				(pin input line
+					(at -15.24 22.86 0)
 					(length 2.54)
-					(name "VBUS"
+					(name "VSYS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -114,10 +102,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -15.24 43.18 0)
+				(pin input line
+					(at -15.24 20.32 0)
 					(length 2.54)
-					(name "NC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -132,10 +120,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -15.24 40.64 0)
+				(pin input line
+					(at -15.24 17.78 0)
 					(length 2.54)
-					(name "NC"
+					(name "3V3_EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -151,9 +139,9 @@
 					)
 				)
 				(pin input line
-					(at -15.24 38.1 0)
+					(at -15.24 15.24 0)
 					(length 2.54)
-					(name "ENABLE"
+					(name "P0.12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -168,10 +156,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 35.56 0)
+				(pin input line
+					(at -15.24 12.7 0)
 					(length 2.54)
-					(name "P0.12"
+					(name "P0.13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -186,10 +174,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 33.02 0)
+				(pin input line
+					(at -15.24 10.16 0)
 					(length 2.54)
-					(name "P0.13"
+					(name "P0.14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -204,10 +192,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 30.48 0)
+				(pin input line
+					(at -15.24 7.62 0)
 					(length 2.54)
-					(name "P0.14"
+					(name "P0.15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -222,10 +210,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 27.94 0)
+				(pin input line
+					(at -15.24 5.08 0)
 					(length 2.54)
-					(name "P0.15"
+					(name "P0.16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -240,8 +228,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 25.4 0)
+				(pin input line
+					(at -15.24 2.54 0)
 					(length 2.54)
 					(name "P0.24"
 						(effects
@@ -258,26 +246,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 25.4 0)
-					(length 2.54)
-					(name "P0.16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 22.86 0)
+				(pin input line
+					(at -15.24 0 0)
 					(length 2.54)
 					(name "P0.25"
 						(effects
@@ -294,10 +264,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 20.32 0)
+				(pin input line
+					(at -15.24 -2.54 0)
 					(length 2.54)
-					(name "P1.01"
+					(name "P1.1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -312,10 +282,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 17.78 0)
+				(pin input line
+					(at -15.24 -5.08 0)
 					(length 2.54)
-					(name "P1.02"
+					(name "P1.2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -330,10 +300,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 15.24 0)
+				(pin input line
+					(at -15.24 -7.62 0)
 					(length 2.54)
-					(name "P1.03"
+					(name "P1.3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -348,10 +318,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 12.7 0)
+				(pin input line
+					(at -15.24 -10.16 0)
 					(length 2.54)
-					(name "P1.04"
+					(name "P1.4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -366,10 +336,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 10.16 0)
+				(pin input line
+					(at -15.24 -12.7 0)
 					(length 2.54)
-					(name "P1.05"
+					(name "P1.5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -384,10 +354,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 7.62 0)
+				(pin input line
+					(at -15.24 -15.24 0)
 					(length 2.54)
-					(name "P1.06"
+					(name "P1.6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -402,10 +372,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 5.08 0)
+				(pin input line
+					(at -15.24 -17.78 0)
 					(length 2.54)
-					(name "P1.07"
+					(name "P1.7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -420,10 +390,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 2.54 0)
+				(pin input line
+					(at -15.24 -20.32 0)
 					(length 2.54)
-					(name "P0.09/NFC1"
+					(name "P0.9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -438,10 +408,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 0 0)
+				(pin input line
+					(at -15.24 -22.86 0)
 					(length 2.54)
-					(name "P0.10/NFC2"
+					(name "P0.10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -456,10 +426,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 48.26 180)
+				(pin input line
+					(at 15.24 25.4 180)
 					(length 2.54)
-					(name "VDD_NRF"
+					(name "3V3_OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -474,10 +444,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 15.24 45.72 180)
+				(pin input line
+					(at 15.24 22.86 180)
 					(length 2.54)
-					(name "NC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -493,9 +463,9 @@
 					)
 				)
 				(pin input line
-					(at 15.24 43.18 180)
+					(at 15.24 20.32 180)
 					(length 2.54)
-					(name "P0.18/RESET"
+					(name "RESET"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -511,7 +481,7 @@
 					)
 				)
 				(pin input line
-					(at 15.24 40.64 180)
+					(at 15.24 17.78 180)
 					(length 2.54)
 					(name "SWDCLK"
 						(effects
@@ -528,8 +498,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 38.1 180)
+				(pin input line
+					(at 15.24 15.24 180)
 					(length 2.54)
 					(name "SWDIO"
 						(effects
@@ -546,8 +516,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 35.56 180)
+				(pin input line
+					(at 15.24 12.7 180)
 					(length 2.54)
 					(name "P0.11"
 						(effects
@@ -564,10 +534,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 33.02 180)
+				(pin input line
+					(at 15.24 10.16 180)
 					(length 2.54)
-					(name "P1.09"
+					(name "P1.9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -582,10 +552,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 30.48 180)
+				(pin input line
+					(at 15.24 7.62 180)
 					(length 2.54)
-					(name "P1.08"
+					(name "P1.8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -600,10 +570,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 27.94 180)
+				(pin input line
+					(at 15.24 5.08 180)
 					(length 2.54)
-					(name "P0.08"
+					(name "P0.8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -618,10 +588,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 25.4 180)
+				(pin input line
+					(at 15.24 2.54 180)
 					(length 2.54)
-					(name "P0.07"
+					(name "P0.7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -636,10 +606,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 22.86 180)
+				(pin input line
+					(at 15.24 0 180)
 					(length 2.54)
-					(name "P0.06"
+					(name "P0.6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -654,8 +624,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 20.32 180)
+				(pin input line
+					(at 15.24 -2.54 180)
 					(length 2.54)
 					(name "P0.27"
 						(effects
@@ -672,8 +642,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 17.78 180)
+				(pin input line
+					(at 15.24 -5.08 180)
 					(length 2.54)
 					(name "P0.26"
 						(effects
@@ -690,10 +660,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 15.24 180)
+				(pin input line
+					(at 15.24 -7.62 180)
 					(length 2.54)
-					(name "P0.31/AIN7"
+					(name "P0.31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -708,10 +678,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 12.7 180)
+				(pin input line
+					(at 15.24 -10.16 180)
 					(length 2.54)
-					(name "P0.30/AIN6"
+					(name "P0.30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -726,10 +696,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 10.16 180)
+				(pin input line
+					(at 15.24 -12.7 180)
 					(length 2.54)
-					(name "P0.29/AIN5"
+					(name "P0.29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -744,10 +714,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
+				(pin input line
+					(at 15.24 -15.24 180)
 					(length 2.54)
-					(name "P0.28/AIN4"
+					(name "P0.28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -762,10 +732,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 5.08 180)
+				(pin input line
+					(at 15.24 -17.78 180)
 					(length 2.54)
-					(name "P0.05/AIN3"
+					(name "P0.5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -780,10 +750,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
+				(pin input line
+					(at 15.24 -20.32 180)
 					(length 2.54)
-					(name "P0.04/AIN2"
+					(name "P0.4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -798,10 +768,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 0 180)
+				(pin input line
+					(at 15.24 -22.86 180)
 					(length 2.54)
-					(name "P0.03/AIN1"
+					(name "P0.3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -821,25 +791,25 @@
 		)
 	)
 	(symbol
-		(lib_id "kekw:nRF52840_Connect_Kit")
-		(at 166.37 91.44 0)
+		(lib_id "0_graz_symbols:nRF52840_MCU")
+		(at 44.45 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46379b06-ba29-4d3e-bf32-4b0267b9f335")
-		(property "Reference" "J1"
-			(at 166.37 35.56 0)
+		(uuid "798080c8-b75e-4978-8394-287bb2373d98")
+		(property "Reference" "LEFT_U1"
+			(at 44.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "nRF52840_Connect_Kit"
-			(at 166.37 38.1 0)
+		(property "Value" "nRF52840_MCU"
+			(at 44.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 91.44 0)
+			(at 44.45 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 91.44 0)
+			(at 44.45 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,142 +834,139 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "nRF52840 Connect Kit 2x20 Header"
-			(at 166.37 91.44 0)
+		(property "Description" ""
+			(at 44.45 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "40"
-			(uuid "1f009167-06c3-4ed5-8980-4a8469995d1b")
-		)
-		(pin "14"
-			(uuid "453943b6-afd3-4777-a5e3-965da09bd772")
-		)
-		(pin "3"
-			(uuid "c5760a95-8f5b-4af6-8fb1-78eef17b1fc3")
-		)
-		(pin "7"
-			(uuid "dfe82752-0c02-4961-a2c7-daa828bdaaea")
-		)
-		(pin "15"
-			(uuid "26fa73e6-afbe-4be1-a0a3-d9c50f20bb58")
-		)
-		(pin "17"
-			(uuid "8339cd12-c07a-4e36-b488-cdf177e76b6b")
-		)
-		(pin "20"
-			(uuid "8b7d7cf3-e4b7-40a0-921e-5111c6f349a6")
-		)
-		(pin "30"
-			(uuid "57f648de-c084-43fa-b9c7-96e00a303341")
-		)
-		(pin "1"
-			(uuid "36167dd4-f65e-40ec-8a2d-42e7c85166e6")
-		)
-		(pin "10"
-			(uuid "2085647d-0b0f-402c-98f5-ed41cd514e69")
-		)
-		(pin "12"
-			(uuid "6f87a6cd-b2b0-4b8a-98eb-af5bcef18a5c")
-		)
-		(pin "16"
-			(uuid "cb0f15df-1f44-43a6-b2b1-f374ee6fb125")
-		)
-		(pin "11"
-			(uuid "a402c1fc-13e3-43c3-955a-820f7889885e")
-		)
-		(pin "39"
-			(uuid "470b7f4e-a627-495f-86bc-60189f78c66b")
-		)
-		(pin "10"
-			(uuid "049999a3-6241-4163-a1fb-193692502118")
-		)
-		(pin "38"
-			(uuid "f43d6c79-c987-4cf9-a7c2-f6f2f73b7db4")
-		)
-		(pin "6"
-			(uuid "7d056f01-f430-4e2e-b137-afea98503267")
-		)
-		(pin "4"
-			(uuid "5f58ca8c-101a-45f1-84fb-181cfd99ac67")
-		)
-		(pin "18"
-			(uuid "282e947b-dd2b-4d6f-9cea-de12ec9b7f8b")
-		)
-		(pin "2"
-			(uuid "2f9735a1-991c-4333-83d5-f66e6b400d90")
-		)
-		(pin "8"
-			(uuid "e6487e81-26a7-4c8c-914f-78f6f8bb26fb")
-		)
-		(pin "9"
-			(uuid "ddaa5aea-00a4-410c-8419-11c5fdc9f11d")
-		)
-		(pin "13"
-			(uuid "7e0678a8-bb97-4cea-a9a8-5777919dbbfc")
-		)
-		(pin "5"
-			(uuid "cf4a51e4-f459-4843-b7a3-91b09276b8aa")
-		)
-		(pin "19"
-			(uuid "ab4d2e6e-9f8b-4906-aa52-1e6fe1f28a41")
-		)
-		(pin "37"
-			(uuid "6f134261-4b01-421d-b99e-5d8c618fed9f")
-		)
-		(pin "35"
-			(uuid "d96ddf9b-ee19-467a-b39d-19863d4e33ee")
-		)
-		(pin "34"
-			(uuid "7976bc1e-51f5-4b73-926f-8fca36a78c62")
-		)
-		(pin "36"
-			(uuid "27cc0fba-b821-4c9d-8268-b4f13d204ef1")
-		)
-		(pin "33"
-			(uuid "f3735d9a-3884-4a82-8f1f-eb015532da8e")
-		)
-		(pin "32"
-			(uuid "a714342f-b76b-4fd4-ae33-99ce78de3969")
-		)
-		(pin "31"
-			(uuid "ffe6e2bb-95c7-40c2-bb25-1b117c3c976c")
-		)
-		(pin "28"
-			(uuid "bc874bff-b24e-4d6e-83d6-568fa2a2f1a2")
-		)
-		(pin "29"
-			(uuid "81d650a0-681a-4061-b02f-36d5c4858b7a")
-		)
-		(pin "22"
-			(uuid "0ec98583-2bfb-4280-bd7d-1e60e334d38e")
-		)
-		(pin "25"
-			(uuid "fd57e8ba-2fd2-4b76-bf8c-0a165f7454ec")
 		)
 		(pin "24"
-			(uuid "39340a09-633d-40a3-ae50-ec6169ebbd0a")
+			(uuid "573fed9d-e9be-45c6-9d10-b09b532dfd69")
 		)
-		(pin "26"
-			(uuid "4ad15bec-4237-4b36-b78a-e754d5acc792")
+		(pin "31"
+			(uuid "bf86c60e-e41a-4873-ada4-f01a2399ff4c")
 		)
-		(pin "23"
-			(uuid "c052db33-c6b3-4675-a82d-a2bf52de3564")
+		(pin "16"
+			(uuid "d7e2f652-ee2f-407f-8e74-aa8d6fc247d5")
+		)
+		(pin "28"
+			(uuid "b2a6b93a-22dc-44e1-a3b6-83cf2f52ba6e")
 		)
 		(pin "27"
-			(uuid "ea89caf2-ace6-437d-b291-6e692cb8020d")
+			(uuid "47ade8c1-6b33-4211-87c4-8392655e8e89")
+		)
+		(pin "25"
+			(uuid "d8b0ef9d-2038-4a05-8376-0a3d1df1544f")
+		)
+		(pin "35"
+			(uuid "c084be06-a6fd-49ca-9103-75d8eaea239b")
+		)
+		(pin "39"
+			(uuid "d0ae4229-5dce-4930-987d-d8caae74a304")
+		)
+		(pin "19"
+			(uuid "aa6d9929-13d3-4c16-95f8-1f4e6032384d")
+		)
+		(pin "14"
+			(uuid "e901e6d3-adb9-48fa-8502-df98a409304d")
+		)
+		(pin "20"
+			(uuid "0313266d-05dd-443f-9d08-80f84acd7eeb")
+		)
+		(pin "40"
+			(uuid "8fadda81-1e6c-48dd-b987-c850cd289683")
+		)
+		(pin "15"
+			(uuid "aa0712ac-29e4-4638-9627-0c2db7f4e53d")
+		)
+		(pin "17"
+			(uuid "d667016a-4316-4064-921b-afcd2dd41f59")
+		)
+		(pin "13"
+			(uuid "9e0193c8-d21c-4534-a286-f217c6912392")
+		)
+		(pin "38"
+			(uuid "cd2f02ab-d988-47ac-ad1c-446efee430b9")
+		)
+		(pin "34"
+			(uuid "59905284-e7d4-43fb-a28e-e6735b6ce94e")
+		)
+		(pin "37"
+			(uuid "42517840-555b-47f0-bf2e-d3e101ac47ce")
+		)
+		(pin "36"
+			(uuid "767a7f88-97d5-42e7-93fc-c853fec2892c")
+		)
+		(pin "33"
+			(uuid "f71fda92-a4c6-477f-8e27-8c6ad15dfb48")
+		)
+		(pin "32"
+			(uuid "976770d4-ef3c-4865-a779-9818dbb6ada7")
+		)
+		(pin "18"
+			(uuid "760f3e15-528f-4016-8409-054292981ea7")
+		)
+		(pin "30"
+			(uuid "138fdf64-0b1c-4329-9f44-084b85c36104")
+		)
+		(pin "29"
+			(uuid "3ad8d2a8-f801-4d24-bd5d-3db8588ce927")
+		)
+		(pin "26"
+			(uuid "9e90cf05-6da4-4432-ac05-44991c087131")
+		)
+		(pin "23"
+			(uuid "243e02a2-f1e2-4640-9d5c-3cc69850df70")
 		)
 		(pin "21"
-			(uuid "7725cbcf-a298-4bd3-a962-bde0cb4c6149")
+			(uuid "1f286c0b-2c0d-48a3-8277-b1c97b01a880")
+		)
+		(pin "22"
+			(uuid "49e973a2-b78b-4e80-bd8b-facaab1bbd7c")
+		)
+		(pin "2"
+			(uuid "0ab8201c-f0c8-4647-bcf9-468b64bd414c")
+		)
+		(pin "5"
+			(uuid "d4c18e62-ee03-4b07-ab06-c06f4eafef95")
+		)
+		(pin "7"
+			(uuid "f9e077c1-6d69-440b-b10b-dbf6e080ec2f")
+		)
+		(pin "10"
+			(uuid "1705cd73-d321-4ea8-a6a9-52f43d752f32")
+		)
+		(pin "12"
+			(uuid "6a40fcc1-dfa6-40d2-a247-cb95edcece49")
+		)
+		(pin "1"
+			(uuid "94b06cae-53e1-4106-af5a-0a3e1b2cf0d2")
+		)
+		(pin "4"
+			(uuid "10f06ee7-8d7d-45fc-8d08-65f9fed90ac9")
+		)
+		(pin "3"
+			(uuid "1e6be636-db86-45eb-a5f5-c83e1b651bf9")
+		)
+		(pin "6"
+			(uuid "c2a297ab-bb9a-42b8-8e06-d1fc3bb62c6a")
+		)
+		(pin "8"
+			(uuid "fc1dcf79-fcb1-4c4e-bc8e-8439170a7629")
+		)
+		(pin "9"
+			(uuid "9dae3d8d-91f1-4c9e-a54d-ffef993b41bf")
+		)
+		(pin "11"
+			(uuid "23e59ec8-6da0-4f0a-afc3-51638ebd1336")
 		)
 		(instances
 			(project ""
 				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
-					(reference "J1")
+					(reference "LEFT_U1")
 					(unit 1)
 				)
 			)
