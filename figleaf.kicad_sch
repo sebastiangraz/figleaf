@@ -3,8 +3,561 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
+		(symbol "0_graz_symbols:MCU_Nice_Nano_V2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Nice_Nano_V2_GRAZ"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "MCU:Nice_Nano_V2"
+				(at 0 -24.384 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 26.67 -63.5 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCU_Nice_Nano_V2_0_1"
+				(rectangle
+					(start -10.16 16.51)
+					(end 10.16 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MCU_Nice_Nano_V2_1_1"
+				(pin input line
+					(at -15.24 13.97 0)
+					(length 5.08)
+					(name "P0.06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 11.43 0)
+					(length 5.08)
+					(name "P0.08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 3.81 0)
+					(length 5.08)
+					(name "P0.17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 1.27 0)
+					(length 5.08)
+					(name "P0.20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -1.27 0)
+					(length 5.08)
+					(name "P0.22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 5.08)
+					(name "P0.24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -6.35 0)
+					(length 5.08)
+					(name "P1.00"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -8.89 0)
+					(length 5.08)
+					(name "P0.11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -11.43 0)
+					(length 5.08)
+					(name "P1.04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -13.97 0)
+					(length 5.08)
+					(name "P1.06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -6.35 270)
+					(length 2.5)
+					(name "P1.01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -6.35 270)
+					(length 2.5)
+					(name "P1.02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -6.35 270)
+					(length 2.5)
+					(name "P1.07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 13.97 180)
+					(length 5.08)
+					(name "B+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 11.43 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 8.89 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 6.35 180)
+					(length 5.08)
+					(name "3.3v"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 3.81 180)
+					(length 5.08)
+					(name "P0.31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 1.27 180)
+					(length 5.08)
+					(name "P0.29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -1.27 180)
+					(length 5.08)
+					(name "P0.02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -3.81 180)
+					(length 5.08)
+					(name "P1.15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -6.35 180)
+					(length 5.08)
+					(name "P1.13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -8.89 180)
+					(length 5.08)
+					(name "P1.11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -11.43 180)
+					(length 5.08)
+					(name "P0.10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -13.97 180)
+					(length 5.08)
+					(name "P0.09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0_graz_symbols:SW_OKM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -177,559 +730,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "1_scotto_symbols:MCU_Nice_Nano_V2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "Nice_Nano_V2"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "ScottoKeebs_MCU:Nice_Nano_V2"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 26.67 -63.5 90)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCU_Nice_Nano_V2_0_1"
-				(rectangle
-					(start -10.16 16.51)
-					(end 10.16 -16.51)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MCU_Nice_Nano_V2_1_1"
-				(pin input line
-					(at -15.24 13.97 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 11.43 0)
-					(length 5.08)
-					(name "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 8.89 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 6.35 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 3.81 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 1.27 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -1.27 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -3.81 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -6.35 0)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -8.89 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -11.43 0)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -13.97 0)
-					(length 5.08)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -8.89 270)
-					(length 2.5)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 270)
-					(length 2.5)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 -8.89 270)
-					(length 2.5)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 13.97 180)
-					(length 5.08)
-					(name "B+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 11.43 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 8.89 180)
-					(length 5.08)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 6.35 180)
-					(length 5.08)
-					(name "3.3v"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 3.81 180)
-					(length 5.08)
-					(name "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 1.27 180)
-					(length 5.08)
-					(name "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -1.27 180)
-					(length 5.08)
-					(name "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -3.81 180)
-					(length 5.08)
-					(name "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -6.35 180)
-					(length 5.08)
-					(name "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -8.89 180)
-					(length 5.08)
-					(name "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -11.43 180)
-					(length 5.08)
-					(name "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -13.97 180)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -833,54 +833,154 @@
 		)
 	)
 	(junction
-		(at 129.54 130.81)
+		(at 238.76 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80179c80-2671-4aaa-851a-7e6acf18530e")
 	)
 	(wire
 		(pts
-			(xy 95.25 139.7) (xy 93.98 139.7)
+			(xy 99.06 152.4) (xy 104.14 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f617fd5-d109-481b-908a-ed7c5b6372e1")
+		(uuid "138f6d8e-b864-4357-b5bc-18d691bf9fbb")
 	)
 	(wire
 		(pts
-			(xy 63.5 149.86) (xy 63.5 154.94)
+			(xy 124.46 177.8) (xy 129.54 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f2a75a3-7ded-4775-b6bb-478712725707")
+		(uuid "14d08a8a-0a83-4cdb-9474-ca5cf9b4321f")
 	)
 	(wire
 		(pts
-			(xy 88.9 176.53) (xy 88.9 175.26)
+			(xy 114.3 187.96) (xy 114.3 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35311270-3529-40ed-9bab-d8bf3b8596aa")
+		(uuid "1df84e47-1356-43ab-b985-2b83bbe485e4")
 	)
 	(wire
 		(pts
-			(xy 127 137.16) (xy 129.54 137.16)
+			(xy 203.2 228.6) (xy 200.66 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42c18c4b-cca0-4573-bcfd-4da5d028276f")
+		(uuid "24d9c557-8c9d-4881-b15e-2a7102b3f3d8")
 	)
 	(wire
 		(pts
-			(xy 160.02 124.46) (xy 162.56 124.46)
+			(xy 114.3 213.36) (xy 114.3 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e44ef01-6f18-4b2e-83bb-da090f34437e")
+	)
+	(wire
+		(pts
+			(xy 63.5 162.56) (xy 63.5 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324191ae-4321-41fd-9eaf-143882f718a0")
+	)
+	(wire
+		(pts
+			(xy 165.1 162.56) (xy 165.1 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377c552e-0a7f-476a-9ed6-77ff2ebbcdbe")
+	)
+	(wire
+		(pts
+			(xy 88.9 162.56) (xy 88.9 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b6a5e7-bcf2-4208-90a4-cab1ef22360f")
+	)
+	(wire
+		(pts
+			(xy 124.46 127) (xy 129.54 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ce0334-6387-4248-9fed-d12a55b44390")
+	)
+	(wire
+		(pts
+			(xy 175.26 228.6) (xy 180.34 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0a7439-ba3c-421d-a2bd-8a2831080a95")
+	)
+	(wire
+		(pts
+			(xy 203.2 203.2) (xy 200.66 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d1be8f-23c7-47f5-813e-3f7564f937f9")
+	)
+	(wire
+		(pts
+			(xy 190.5 162.56) (xy 190.5 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ee331a-67e4-4f9a-9a7f-df844c8bf2e8")
+	)
+	(wire
+		(pts
+			(xy 73.66 177.8) (xy 78.74 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451440f1-d51f-4d8b-89f5-56e77f918e6a")
+	)
+	(wire
+		(pts
+			(xy 99.06 127) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dee644c-f65d-4b5c-a3d0-9e94fff33580")
+	)
+	(wire
+		(pts
+			(xy 269.24 121.92) (xy 271.78 121.92)
 		)
 		(stroke
 			(width 0)
@@ -890,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 127) (xy 160.02 127)
+			(xy 270.51 124.46) (xy 269.24 124.46)
 		)
 		(stroke
 			(width 0)
@@ -900,17 +1000,37 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 134.62) (xy 160.02 134.62)
+			(xy 203.2 152.4) (xy 200.66 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64b2edc9-dc97-42a0-b867-869b48cd09c1")
+		(uuid "5f481941-99d9-48ef-85c4-a5560a965087")
 	)
 	(wire
 		(pts
-			(xy 68.58 139.7) (xy 73.66 139.7)
+			(xy 149.86 228.6) (xy 154.94 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6359c285-9606-4fbf-b733-b81993e6286e")
+	)
+	(wire
+		(pts
+			(xy 203.2 127) (xy 200.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6896325a-5abc-4e8a-aa3b-c80d754925ec")
+	)
+	(wire
+		(pts
+			(xy 73.66 127) (xy 78.74 127)
 		)
 		(stroke
 			(width 0)
@@ -920,17 +1040,57 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 137.16) (xy 160.02 137.16)
+			(xy 190.5 137.16) (xy 190.5 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "733f88d7-3c66-418e-aad2-3042897a3af3")
+		(uuid "69e12212-9cf0-40f0-95b2-53b7fb300c92")
 	)
 	(wire
 		(pts
-			(xy 129.54 129.54) (xy 129.54 130.81)
+			(xy 203.2 177.8) (xy 200.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b67a0dc-739d-40b5-9efc-475c3e92cd3b")
+	)
+	(wire
+		(pts
+			(xy 139.7 213.36) (xy 139.7 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c00ec24-46c5-4173-8eff-c1cf4bfe14c3")
+	)
+	(wire
+		(pts
+			(xy 190.5 187.96) (xy 190.5 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e388e61-82e4-4d37-9ad1-d5f72dc921a7")
+	)
+	(wire
+		(pts
+			(xy 88.9 187.96) (xy 88.9 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72abf591-ec8e-4e9a-a877-7adfcb6b01e7")
+	)
+	(wire
+		(pts
+			(xy 238.76 127) (xy 238.76 128.27)
 		)
 		(stroke
 			(width 0)
@@ -940,37 +1100,107 @@
 	)
 	(wire
 		(pts
-			(xy 127 134.62) (xy 129.54 134.62)
+			(xy 124.46 152.4) (xy 129.54 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81e193dd-48d0-419d-af4a-3896e34ec134")
+		(uuid "78edcd9b-c682-4804-9b89-2847d28a6a70")
 	)
 	(wire
 		(pts
-			(xy 63.5 176.53) (xy 63.5 175.26)
+			(xy 88.9 213.36) (xy 88.9 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83748fc4-b833-4b14-a4a7-99bc20443963")
+		(uuid "7b52d00e-aafc-4fc1-829b-d90d54f8a36f")
 	)
 	(wire
 		(pts
-			(xy 58.42 149.86) (xy 58.42 154.94)
+			(xy 114.3 137.16) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f6f1dcf-eb28-4d31-823a-cd242d0b69d9")
+		(uuid "8671f86b-74f3-486c-97f6-4e43bf999262")
 	)
 	(wire
 		(pts
-			(xy 128.27 130.81) (xy 129.54 130.81)
+			(xy 73.66 228.6) (xy 78.74 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a61951-0cab-409d-9706-44d13dfa454f")
+	)
+	(wire
+		(pts
+			(xy 88.9 115.57) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af1f3c2-4d73-4f22-bc68-463df226bb6f")
+	)
+	(wire
+		(pts
+			(xy 114.3 162.56) (xy 114.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1e03c9-5407-4b9f-8740-4bee82b58467")
+	)
+	(wire
+		(pts
+			(xy 124.46 203.2) (xy 129.54 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98aecc62-1706-463c-974a-fc211116f42d")
+	)
+	(wire
+		(pts
+			(xy 73.66 152.4) (xy 78.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6407f6-f9cf-48c4-994f-a69020987819")
+	)
+	(wire
+		(pts
+			(xy 165.1 213.36) (xy 165.1 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bae5dd4-af5c-4d2f-92e9-ef331d780b42")
+	)
+	(wire
+		(pts
+			(xy 88.9 137.16) (xy 88.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb1d637-9e08-4aa7-90f6-392175879cdb")
+	)
+	(wire
+		(pts
+			(xy 237.49 128.27) (xy 238.76 128.27)
 		)
 		(stroke
 			(width 0)
@@ -980,7 +1210,37 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 132.08) (xy 129.54 130.81)
+			(xy 149.86 177.8) (xy 154.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a848cc21-4dde-4024-82d1-32139b1f5165")
+	)
+	(wire
+		(pts
+			(xy 63.5 137.16) (xy 63.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7409c6-9d5e-4207-b80c-c727021164ac")
+	)
+	(wire
+		(pts
+			(xy 63.5 213.36) (xy 63.5 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb2d6ff-1470-4b4e-b5c2-5e43cb2d0900")
+	)
+	(wire
+		(pts
+			(xy 238.76 129.54) (xy 238.76 128.27)
 		)
 		(stroke
 			(width 0)
@@ -990,7 +1250,37 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 129.54) (xy 162.56 129.54)
+			(xy 149.86 127) (xy 154.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02cd4d4-91c7-4705-b0fa-ba50054b7156")
+	)
+	(wire
+		(pts
+			(xy 175.26 127) (xy 180.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0553bef-99bb-42e8-8074-5560acda2902")
+	)
+	(wire
+		(pts
+			(xy 175.26 177.8) (xy 180.34 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f2d2b2-163c-4502-a6ba-9a1d2cb44d6e")
+	)
+	(wire
+		(pts
+			(xy 269.24 127) (xy 271.78 127)
 		)
 		(stroke
 			(width 0)
@@ -1000,47 +1290,187 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 149.86) (xy 83.82 154.94)
+			(xy 165.1 137.16) (xy 165.1 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd8e2f41-ad6b-4a06-aa4c-b7e2bda2b58c")
+		(uuid "b3f9e03d-73eb-4912-99d7-bfb52f838efd")
 	)
 	(wire
 		(pts
-			(xy 88.9 149.86) (xy 88.9 154.94)
+			(xy 63.5 187.96) (xy 63.5 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3d7bd96-fe66-4992-ac5a-1b22f4affe2a")
+		(uuid "b74c9c6f-c944-4f05-8944-29d8d6961abf")
 	)
 	(wire
 		(pts
-			(xy 68.58 165.1) (xy 73.66 165.1)
+			(xy 175.26 203.2) (xy 180.34 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d67bcd46-8c66-482d-87ce-34bd6f7c8bd1")
+		(uuid "b83bce5b-1532-4468-9a4b-ff26fe26b933")
 	)
 	(wire
 		(pts
-			(xy 95.25 165.1) (xy 93.98 165.1)
+			(xy 139.7 187.96) (xy 139.7 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0566126-9801-4ee6-b208-0aa0257ea012")
+		(uuid "bae758fb-edf4-4536-88a4-9f095e9b37df")
+	)
+	(wire
+		(pts
+			(xy 139.7 137.16) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be917245-875a-4e8c-aaa2-6c350ec69099")
+	)
+	(wire
+		(pts
+			(xy 124.46 228.6) (xy 129.54 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9b8faa-0fe4-4ff0-915a-cf48e0271c3f")
+	)
+	(wire
+		(pts
+			(xy 63.5 115.57) (xy 63.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c863dcff-8eef-4456-af25-36214e4f479f")
+	)
+	(wire
+		(pts
+			(xy 175.26 152.4) (xy 180.34 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cada9d0b-9428-42d4-8ca6-0b22e9c8aee9")
+	)
+	(wire
+		(pts
+			(xy 165.1 187.96) (xy 165.1 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7747a0-98ef-4ec9-8f7e-21e305f4b64b")
+	)
+	(wire
+		(pts
+			(xy 99.06 228.6) (xy 104.14 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1de6a74-b1a2-45d8-84c0-1c13c2672f3b")
+	)
+	(wire
+		(pts
+			(xy 190.5 213.36) (xy 190.5 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39fd7e2-4138-4829-8edf-e47497890a88")
+	)
+	(wire
+		(pts
+			(xy 99.06 177.8) (xy 104.14 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daec2099-3cb8-457e-ad05-d05a0e084e90")
+	)
+	(wire
+		(pts
+			(xy 149.86 203.2) (xy 154.94 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4393ca-3b6d-4236-bd7b-042b4e877a18")
+	)
+	(wire
+		(pts
+			(xy 114.3 115.57) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a24adf-da4d-410c-85ec-1e48cac1bd17")
+	)
+	(wire
+		(pts
+			(xy 73.66 203.2) (xy 78.74 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f36117-6760-421c-8c1b-03c25c0455e2")
+	)
+	(wire
+		(pts
+			(xy 139.7 162.56) (xy 139.7 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f272e36d-d6e9-478a-ade6-d86eb27d87b7")
+	)
+	(wire
+		(pts
+			(xy 149.86 152.4) (xy 154.94 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a9539e-cb6d-4aac-8ef9-ec30a2cba584")
+	)
+	(wire
+		(pts
+			(xy 99.06 203.2) (xy 104.14 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8e2e59-3159-48da-b21a-3a814ad2b406")
 	)
 	(global_label "RESET_L"
 		(shape input)
-		(at 162.56 129.54 0)
+		(at 271.78 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1050,7 +1480,7 @@
 		)
 		(uuid "051243da-8c39-483a-9d52-fb9ecf0f4f4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.286 129.54 0)
+			(at 282.506 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1492,7 @@
 	)
 	(global_label "col_0"
 		(shape input)
-		(at 58.42 129.54 90)
+		(at 63.5 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1072,7 +1502,7 @@
 		)
 		(uuid "06fcd445-b5c1-40fa-9a90-82468b08e81b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 121.5103 90)
+			(at 63.5 107.5403 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1084,7 +1514,7 @@
 	)
 	(global_label "row_1"
 		(shape input)
-		(at 127 137.16 180)
+		(at 238.76 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1094,7 +1524,7 @@
 		)
 		(uuid "07673bc5-4b9f-4bf4-9ac2-a44d6c28c5a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.9703 137.16 0)
+			(at 230.7303 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,9 +1534,9 @@
 			)
 		)
 	)
-	(global_label "col_1"
+	(global_label "col_2"
 		(shape input)
-		(at 162.56 137.16 0)
+		(at 269.24 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1114,9 +1544,9 @@
 			)
 			(justify left)
 		)
-		(uuid "26265604-dc07-4da4-b2e3-87dac8b53559")
+		(uuid "1dcf132e-3a07-4499-828c-834c5b4e5caf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.5897 137.16 0)
+			(at 277.2697 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,9 +1556,9 @@
 			)
 		)
 	)
-	(global_label "row_0"
+	(global_label "row_1"
 		(shape input)
-		(at 95.25 139.7 0)
+		(at 203.2 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1136,9 +1566,97 @@
 			)
 			(justify left)
 		)
-		(uuid "30115ef9-e37b-4d7b-b835-3c98001014a4")
+		(uuid "24445c6e-d895-4c6e-b0c5-3a158700f229")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.2797 139.7 0)
+			(at 211.2297 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_1"
+		(shape input)
+		(at 269.24 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26265604-dc07-4da4-b2e3-87dac8b53559")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.2697 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_3"
+		(shape input)
+		(at 139.7 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28d3146f-241e-4a2c-b792-022a8b1095fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 108.8103 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row_2"
+		(shape input)
+		(at 251.46 142.24 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "359524b2-86d7-4f9f-b738-fbf9dceab710")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 134.2103 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row_4"
+		(shape input)
+		(at 203.2 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52070c8f-b6f1-48dd-9bc1-1dca9e76f1d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.2297 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,7 +1668,7 @@
 	)
 	(global_label "col_0"
 		(shape input)
-		(at 162.56 134.62 0)
+		(at 269.24 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1160,7 +1678,7 @@
 		)
 		(uuid "6a4009da-4f87-4ff7-8521-8bb862a45a3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.5897 134.62 0)
+			(at 277.2697 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,9 +1688,9 @@
 			)
 		)
 	)
-	(global_label "row_1"
+	(global_label "row_4"
 		(shape input)
-		(at 95.25 165.1 0)
+		(at 256.54 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1180,9 +1698,75 @@
 			)
 			(justify left)
 		)
-		(uuid "6a5ef5d3-d1ef-4460-9b7f-0b1a0cde095b")
+		(uuid "758a1f5b-46a1-4685-9a83-711ba9548ccd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.2797 165.1 0)
+			(at 256.54 134.2103 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row_2"
+		(shape input)
+		(at 203.2 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8835dfb0-4416-4bc9-ba2a-b68578c4fb1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.2297 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_4"
+		(shape input)
+		(at 165.1 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8da4c488-219f-43b1-a121-29748cb85917")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 108.8103 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_5"
+		(shape input)
+		(at 269.24 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e04aef7-87e6-4d4a-b6dd-18198a6bd4fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.2697 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1778,7 @@
 	)
 	(global_label "col_1"
 		(shape input)
-		(at 83.82 129.54 90)
+		(at 88.9 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1204,7 +1788,51 @@
 		)
 		(uuid "a44e42c3-9779-4681-b339-8b0fc332e724")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.82 121.5103 90)
+			(at 88.9 107.5403 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_5"
+		(shape input)
+		(at 190.5 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "addf36c7-906b-49a1-bf39-4e42aca5fd13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 108.8103 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_4"
+		(shape input)
+		(at 269.24 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4066011-92ee-45ca-a937-cb84ef03c4c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.2697 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1844,7 @@
 	)
 	(global_label "row_0"
 		(shape input)
-		(at 127 134.62 180)
+		(at 238.76 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1226,7 +1854,7 @@
 		)
 		(uuid "c4491bee-49a6-419c-884b-69820e7a8a69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.9703 134.62 0)
+			(at 230.7303 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,9 +1864,97 @@
 			)
 		)
 	)
+	(global_label "row_0"
+		(shape input)
+		(at 203.2 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d68fe7d8-4a14-4e25-9271-1af8c63495df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.2297 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_3"
+		(shape input)
+		(at 269.24 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbd01740-1234-4290-8a96-c288b70be118")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.2697 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row_3"
+		(shape input)
+		(at 203.2 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3beddb0-4025-4726-848e-7974c12afb5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.2297 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row_3"
+		(shape input)
+		(at 254 142.24 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4d510aa-81d5-485d-86ed-412be61a85da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254 134.2103 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RAW_L"
 		(shape input)
-		(at 162.56 124.46 0)
+		(at 271.78 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1248,7 +1964,29 @@
 		)
 		(uuid "e6bee88d-d085-4453-be22-9d62f8fc7de8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.5928 124.46 0)
+			(at 280.8128 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_2"
+		(shape input)
+		(at 114.3 115.57 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f46aac58-12d4-47b4-a7e9-de66cf214af0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 107.5403 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,34 +1997,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 176.53 0)
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 63.5 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0aa1c1ed-4edc-41ad-9bdc-76bcd75cf4fd")
-		(property "Reference" "#PWR03"
-			(at 88.9 182.88 0)
+		(fields_autoplaced yes)
+		(uuid "096b58f8-d4a1-4855-9f6a-8305fca2fc95")
+		(property "Reference" "S13"
+			(at 74.93 171.4835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
-			(at 88.8999 180.34 90)
+		(property "Value" "SW_OKM"
+			(at 74.93 174.0235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.9 176.53 0)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 39.37 174.0235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +2034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 176.53 0)
+			(at 58.42 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,56 +2042,70 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 176.53 0)
+		(property "Description" ""
+			(at 58.42 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "63c4aca5-dbba-4678-847b-05b7ee6ee5fd")
+		)
+		(pin "5"
+			(uuid "83c2c436-b3a0-45e6-9467-aed10d1ed89f")
 		)
 		(pin "1"
-			(uuid "1f5b451f-158f-4a32-a461-7b6c573e6ee4")
+			(uuid "e30b94d4-84dd-4a40-82da-469ab0a48125")
+		)
+		(pin "6"
+			(uuid "7ac2b674-d753-4193-88bf-c80674339ca2")
+		)
+		(pin "4"
+			(uuid "f2826d18-a848-40b9-aa0e-4a3e27cda470")
+		)
+		(pin "2"
+			(uuid "30c0443d-c774-4f43-8815-8123972704c5")
 		)
 		(instances
 			(project "figleaf"
 				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
-					(reference "#PWR03")
+					(reference "S13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 63.5 176.53 0)
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 88.9 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "334b10e5-281f-4c15-9050-8035a0b0fef6")
-		(property "Reference" "#PWR04"
-			(at 63.5 182.88 0)
+		(fields_autoplaced yes)
+		(uuid "12829c99-12b7-4cca-84b0-b2f7c32563cc")
+		(property "Reference" "S8"
+			(at 100.33 146.0835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
-			(at 63.4999 180.34 90)
+		(property "Value" "SW_OKM"
+			(at 100.33 148.6235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 176.53 0)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 83.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +2114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 176.53 0)
+			(at 83.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,30 +2122,683 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 176.53 0)
+		(property "Description" ""
+			(at 83.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "081c4e69-2b80-4fc1-b0e3-e64cdbc55678")
+		)
+		(pin "5"
+			(uuid "edfb9988-3ffb-49fd-b17b-c9313f38dfb5")
 		)
 		(pin "1"
-			(uuid "7d63162b-a5d6-42bd-86d8-4ddea5fc0bab")
+			(uuid "825aba84-fb4b-412c-ab0b-fb5f989cb150")
+		)
+		(pin "6"
+			(uuid "bc0cbc7a-6496-4ecf-9656-5af625327a88")
+		)
+		(pin "4"
+			(uuid "d5271bef-f4e3-4fa2-9615-84a5c481d173")
+		)
+		(pin "2"
+			(uuid "b2d9a211-18bc-458f-bd30-366d035f26b6")
 		)
 		(instances
 			(project "figleaf"
 				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
-					(reference "#PWR04")
+					(reference "S8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "1_scotto_symbols:MCU_Nice_Nano_V2")
-		(at 144.78 138.43 0)
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 139.7 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1680dcb3-eaec-487e-8008-1e882ed4eea4")
+		(property "Reference" "S10"
+			(at 151.13 146.0835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 151.13 148.6235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 134.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "438e6e7b-151a-4469-ad12-570b59d9916e")
+		)
+		(pin "5"
+			(uuid "e331b5b9-3c2b-498e-a948-9efb6b74f08e")
+		)
+		(pin "1"
+			(uuid "e19a6122-4943-4d01-a957-17f5c1fc73c3")
+		)
+		(pin "6"
+			(uuid "8d0425ff-8d10-4b03-a2a2-b9fa79971788")
+		)
+		(pin "4"
+			(uuid "638e609d-94dd-44b0-91f4-ea927a55cc7a")
+		)
+		(pin "2"
+			(uuid "daa57824-0e06-4ed1-b7a7-9b34bdf5b057")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 139.7 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "179c1d7e-42d4-40dd-bf1e-6e850c3150f8")
+		(property "Reference" "S22"
+			(at 151.13 196.8835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 151.13 199.4235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 134.62 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dea2d993-6380-4d23-8723-58c0754e5ce0")
+		)
+		(pin "5"
+			(uuid "23168dc8-b759-4bf5-be4b-a9db3709e3a7")
+		)
+		(pin "1"
+			(uuid "90fcda49-2430-4af2-8b39-a2fa77635487")
+		)
+		(pin "6"
+			(uuid "2b191834-83b7-4630-b002-5eed7a452108")
+		)
+		(pin "4"
+			(uuid "407d19c3-a7e5-4e35-8f89-84d503ed6a4d")
+		)
+		(pin "2"
+			(uuid "7035a532-c4e2-49fa-b51d-962ac5288430")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 63.5 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "213e6ba1-67fb-426a-b806-abed5af2531a")
+		(property "Reference" "S7"
+			(at 74.93 146.0835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 74.93 148.6235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 39.37 148.6235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f7c31520-eb12-4172-9933-8f3d0b65ef93")
+		)
+		(pin "5"
+			(uuid "82d38c23-b88c-4c85-8978-57571f07b7a1")
+		)
+		(pin "1"
+			(uuid "bd41ef30-4171-4599-a8b4-40ccd1ec943d")
+		)
+		(pin "6"
+			(uuid "aa18f625-fa75-430c-bb81-57a51ea0beac")
+		)
+		(pin "4"
+			(uuid "ca9aa05a-5560-4e11-a603-4a10c612a3ff")
+		)
+		(pin "2"
+			(uuid "a30b7f0b-2a14-485b-a780-4f301359f6c5")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 114.3 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24dc5e42-1767-4e52-aa75-d4e00c38c085")
+		(property "Reference" "S9"
+			(at 125.73 146.0835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 125.73 148.6235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ce79207a-6b96-4eb2-a164-705af148ba4f")
+		)
+		(pin "5"
+			(uuid "1c4e8e35-eb12-4c7b-9504-6336be993a0d")
+		)
+		(pin "1"
+			(uuid "03ffe326-cf2a-47b5-b414-572352e84402")
+		)
+		(pin "6"
+			(uuid "af6830ed-54eb-4caa-b48c-7dc8e64d68d3")
+		)
+		(pin "4"
+			(uuid "9b56f4cc-b249-44d7-8c3b-20ec56901cdc")
+		)
+		(pin "2"
+			(uuid "b8d881ac-d620-4e73-bacb-54712c837257")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 114.3 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35eb4bc6-e017-4d5d-a7c3-ef0a9dff71e1")
+		(property "Reference" "S21"
+			(at 125.73 196.8835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 125.73 199.4235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 109.22 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0896a7d4-4313-4eb9-96c8-b4bb25e84e1b")
+		)
+		(pin "5"
+			(uuid "3e883921-f8f6-42db-8be0-bd54547d24db")
+		)
+		(pin "1"
+			(uuid "58022c5a-e270-4c81-8658-d6e2ba75882c")
+		)
+		(pin "6"
+			(uuid "58ee9218-b479-434f-af3c-6a978fd6208c")
+		)
+		(pin "4"
+			(uuid "1f20b393-c8c3-4fd1-824f-a6c5deb952a7")
+		)
+		(pin "2"
+			(uuid "ca5e74d4-bc9e-4715-aa53-1f015958ccb0")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 165.1 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eeabe0e-4216-4a1b-9f56-aff752ab27f1")
+		(property "Reference" "S23"
+			(at 176.53 196.8835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 176.53 199.4235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 160.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0903de9e-c123-4c94-8a03-f2e8ea8af129")
+		)
+		(pin "5"
+			(uuid "9072a746-49d2-45be-91db-fbf82ca64d93")
+		)
+		(pin "1"
+			(uuid "345cb343-0339-4c0d-b6d4-e95c23546ae8")
+		)
+		(pin "6"
+			(uuid "2a2eba8a-ebdc-495c-b331-69cf56131cb5")
+		)
+		(pin "4"
+			(uuid "4163a716-d256-4269-a21d-dcf16b035dd7")
+		)
+		(pin "2"
+			(uuid "deabba42-587c-4cb7-8588-e80719e746b8")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 114.3 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43fd4399-8113-46e0-9bb6-5a1cc207acf7")
+		(property "Reference" "S15"
+			(at 125.73 171.4835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 125.73 174.0235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "160435fe-451a-406c-8e73-d5a94f2fdc5a")
+		)
+		(pin "5"
+			(uuid "74ef084c-80c3-4d45-937f-02eedd7cd2e8")
+		)
+		(pin "1"
+			(uuid "f7423dbc-451c-4b6b-aee2-83179a7ae09c")
+		)
+		(pin "6"
+			(uuid "5e402302-f65d-4933-ad3d-263b8d353d37")
+		)
+		(pin "4"
+			(uuid "e0637c32-21f0-4dc0-ba42-cc2902ccec58")
+		)
+		(pin "2"
+			(uuid "6acbb07a-a4bb-49e7-ab2a-4ecc4ec70175")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 165.1 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44617ecf-e1af-4fd6-886d-c083700aee3f")
+		(property "Reference" "S5"
+			(at 176.53 120.6835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 176.53 123.2235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9c24fdfa-7ffc-4f4a-aa2a-0e0b04be53d0")
+		)
+		(pin "5"
+			(uuid "52b9fb3d-a08a-4598-9862-906947315b2d")
+		)
+		(pin "1"
+			(uuid "a523667c-f093-4620-896e-6b04100fc9fc")
+		)
+		(pin "6"
+			(uuid "875e57cb-04fc-45d0-b3c7-c504f1dc4d48")
+		)
+		(pin "4"
+			(uuid "82f517a8-80fb-4d3a-b31e-c24e2056034b")
+		)
+		(pin "2"
+			(uuid "fca4c6e2-35cf-4d2b-807d-09359dfef452")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:MCU_Nice_Nano_V2")
+		(at 254 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1401,15 +2807,15 @@
 		(fields_autoplaced yes)
 		(uuid "4dcf3904-7bb4-44ee-af8c-197540b41be9")
 		(property "Reference" "U1"
-			(at 144.78 157.48 0)
+			(at 254 154.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "Nice_Nano_V2"
-			(at 144.78 160.02 0)
+		(property "Value" "Nice_Nano_V2_GRAZ"
+			(at 254 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1417,7 +2823,7 @@
 			)
 		)
 		(property "Footprint" "MCU:Nice_Nano_V2"
-			(at 144.78 161.29 0)
+			(at 254 160.274 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1426,7 +2832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 201.93 90)
+			(at 280.67 199.39 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1435,7 +2841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 138.43 0)
+			(at 254 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,7 +2941,7 @@
 	)
 	(symbol
 		(lib_id "0_graz_symbols:SW_OKM")
-		(at 83.82 139.7 0)
+		(at 88.9 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1544,7 +2950,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fdfd74c-30c1-4d19-ae17-de1183131535")
 		(property "Reference" "S2"
-			(at 95.25 133.3835 0)
+			(at 100.33 120.6835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +2958,7 @@
 			)
 		)
 		(property "Value" "SW_OKM"
-			(at 95.25 135.9235 0)
+			(at 100.33 123.2235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +2966,7 @@
 			)
 		)
 		(property "Footprint" "Graz_Footprints:One Key Module"
-			(at 78.74 134.62 0)
+			(at 83.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1569,7 +2975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 134.62 0)
+			(at 83.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +2984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 134.62 0)
+			(at 83.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1615,7 +3021,7 @@
 	)
 	(symbol
 		(lib_id "0_graz_symbols:SW_OKM")
-		(at 58.42 139.7 0)
+		(at 63.5 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1624,31 +3030,34 @@
 		(fields_autoplaced yes)
 		(uuid "526075ca-ef8b-40d5-babf-2c024cc5ca7c")
 		(property "Reference" "S1"
-			(at 34.29 130.8435 0)
+			(at 74.93 120.6835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 			)
 		)
 		(property "Value" "SW_OKM"
-			(at 34.29 133.3835 0)
+			(at 74.93 123.2235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 			)
 		)
 		(property "Footprint" "Graz_Footprints:One Key Module"
-			(at 34.29 135.9235 0)
+			(at 39.37 123.2235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 134.62 0)
+			(at 58.42 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +3066,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 134.62 0)
+			(at 58.42 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +3103,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 130.81 270)
+		(at 237.49 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1702,7 +3111,7 @@
 		(dnp no)
 		(uuid "57520100-9178-4f51-b52f-9da231a05c63")
 		(property "Reference" "#PWR01"
-			(at 121.92 130.81 0)
+			(at 231.14 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +3120,7 @@
 			)
 		)
 		(property "Value" "GND_L"
-			(at 124.46 130.8099 90)
+			(at 233.68 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +3129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 130.81 0)
+			(at 237.49 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +3138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 130.81 0)
+			(at 237.49 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +3147,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 130.81 0)
+			(at 237.49 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,16 +3169,16 @@
 	)
 	(symbol
 		(lib_id "0_graz_symbols:SW_OKM")
-		(at 58.42 165.1 0)
+		(at 88.9 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b469062-c2b3-4ce4-a386-5160f2c4f6d3")
-		(property "Reference" "S3"
-			(at 69.85 158.7835 0)
+		(uuid "61ae0380-ea01-4d6c-968d-c82007b53c72")
+		(property "Reference" "S26"
+			(at 100.33 222.2835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +3186,7 @@
 			)
 		)
 		(property "Value" "SW_OKM"
-			(at 69.85 161.3235 0)
+			(at 100.33 224.8235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +3194,7 @@
 			)
 		)
 		(property "Footprint" "Graz_Footprints:One Key Module"
-			(at 53.34 160.02 0)
+			(at 83.82 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +3203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 160.02 0)
+			(at 83.82 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +3212,565 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 160.02 0)
+			(at 83.82 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2a1721d6-9b62-4475-b7fb-9d7cf416f12d")
+		)
+		(pin "5"
+			(uuid "31e16adb-afe1-40f7-829f-2e41f5c7dcb0")
+		)
+		(pin "1"
+			(uuid "b940aa92-3c13-447d-84b5-2e1184bccff6")
+		)
+		(pin "6"
+			(uuid "f577737c-db6a-49d5-8a2d-9cc56639da7b")
+		)
+		(pin "4"
+			(uuid "285d4cb1-886e-469d-8c81-79452eef5f60")
+		)
+		(pin "2"
+			(uuid "76738bd3-07b1-4d48-8e7b-f5bd1407c686")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 165.1 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6523bf6a-ef19-4397-a050-dec2e1d0c1fb")
+		(property "Reference" "S11"
+			(at 176.53 146.0835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 176.53 148.6235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d322a2cf-cf39-4fbb-be64-b2840ebb3cc4")
+		)
+		(pin "5"
+			(uuid "540835bd-dcd2-42c1-a882-4779966555ea")
+		)
+		(pin "1"
+			(uuid "e4f50d8a-98c8-48af-ba05-3fd901a2820b")
+		)
+		(pin "6"
+			(uuid "d23f1cb3-d14d-429c-96d3-548e6087f775")
+		)
+		(pin "4"
+			(uuid "6c3f392a-77a8-409f-a186-381459c3a52d")
+		)
+		(pin "2"
+			(uuid "c3e4aad9-656c-42bf-8a5f-3edeec4372d3")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 165.1 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68aa6011-6eb4-456c-8320-dea09d9cfa3f")
+		(property "Reference" "S29"
+			(at 176.53 222.2835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 176.53 224.8235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 160.02 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4f5f7075-cf9d-49cf-a39d-7a79882aa795")
+		)
+		(pin "5"
+			(uuid "0f15a4d9-df7a-48ff-9baa-79fc8de29a80")
+		)
+		(pin "1"
+			(uuid "82c824bf-c560-43ae-b75f-e881a7ac526c")
+		)
+		(pin "6"
+			(uuid "2a44d943-981d-476e-a7e8-2cf2251881cb")
+		)
+		(pin "4"
+			(uuid "26989c00-70f6-4259-8f13-9a484f6ad72b")
+		)
+		(pin "2"
+			(uuid "cb83ce78-05b0-4ed7-81e0-cc431eddba55")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 190.5 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eb61c1d-75c3-46e9-ac2f-11b8c6987cf8")
+		(property "Reference" "S24"
+			(at 201.93 196.8835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 201.93 199.4235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 185.42 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "132e99f4-04eb-46d8-bfdd-113c2cb76dec")
+		)
+		(pin "5"
+			(uuid "ad7c2948-be74-4098-8b06-efd0b8b0738a")
+		)
+		(pin "1"
+			(uuid "d566512c-5d27-4136-b0e7-fe8871a3af19")
+		)
+		(pin "6"
+			(uuid "b506407f-dbef-48c1-bdec-7d7af26ca82f")
+		)
+		(pin "4"
+			(uuid "d5a11983-d944-40d7-a4fe-bbc72f91f169")
+		)
+		(pin "2"
+			(uuid "8fa3280c-4453-4289-97f2-a8035e5dd446")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 190.5 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fa36bbb-d377-42a6-903b-52ee8b82df15")
+		(property "Reference" "S12"
+			(at 201.93 146.0835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 201.93 148.6235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "17aa3a53-aa4b-452e-b0d3-19bed3a7b570")
+		)
+		(pin "5"
+			(uuid "14d7a3e8-959b-4fe0-a743-c0db24f0cbe0")
+		)
+		(pin "1"
+			(uuid "b147f9da-06f5-4f57-889a-ed505311d42a")
+		)
+		(pin "6"
+			(uuid "2913b9dc-1b93-4a66-9a3e-db793dc37ef3")
+		)
+		(pin "4"
+			(uuid "4ac9df14-36c0-45ee-9439-acfc5c8b15cc")
+		)
+		(pin "2"
+			(uuid "c68fb2a2-6068-403d-b904-227cd1572e79")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 88.9 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73819f74-d125-411f-95a1-5787f990e40b")
+		(property "Reference" "S14"
+			(at 100.33 171.4835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 100.33 174.0235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "934c0807-b612-4758-8509-326ecad6ee0a")
+		)
+		(pin "5"
+			(uuid "62a7165a-0025-4f7b-9088-33eebe15ad32")
+		)
+		(pin "1"
+			(uuid "e111fd9d-21bc-4886-8b72-cc85d6619876")
+		)
+		(pin "6"
+			(uuid "52e04ad5-6a45-4d4d-a965-f01bfaa39d7a")
+		)
+		(pin "4"
+			(uuid "b79b4316-1e70-468b-8c8e-fc0c26bff8e6")
+		)
+		(pin "2"
+			(uuid "4c69441f-5d6b-4009-8843-b6f82fae1cfd")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 63.5 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77afce5c-381d-4785-859a-468122f952e2")
+		(property "Reference" "S19"
+			(at 74.93 196.8835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 74.93 199.4235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 39.37 199.4235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0e0e64d7-bd06-4e14-9cd1-4833a7115eec")
+		)
+		(pin "5"
+			(uuid "ffc4e740-7709-497f-9f23-eafb41348e22")
+		)
+		(pin "1"
+			(uuid "63b2fe07-64b5-4f0a-9619-b0787c658c54")
+		)
+		(pin "6"
+			(uuid "fc3ae468-70bf-4190-9f80-41bb7b0345da")
+		)
+		(pin "4"
+			(uuid "21d6afcd-6259-4ff8-b52b-548367c2971a")
+		)
+		(pin "2"
+			(uuid "13738be7-a731-4a4d-9725-687c12871bac")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 114.3 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b469062-c2b3-4ce4-a386-5160f2c4f6d3")
+		(property "Reference" "S3"
+			(at 125.73 120.6835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 125.73 123.2235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,34 +3806,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 161.29 127 90)
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 165.1 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c2d5a354-6d0c-4a97-9286-dc6410536ad9")
-		(property "Reference" "#PWR02"
-			(at 167.64 127 0)
+		(uuid "8fdb8aab-5ada-48f5-a511-04ce27693184")
+		(property "Reference" "S17"
+			(at 176.53 171.4835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
-			(at 165.1 127.0001 90)
+		(property "Value" "SW_OKM"
+			(at 176.53 174.0235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.29 127 0)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 160.02 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +3840,488 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 127 0)
+			(at 160.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b11f325f-6be5-429f-a542-a1ec40fd4046")
+		)
+		(pin "5"
+			(uuid "495bcb5f-c167-494c-a8cb-a5cc82ceb0a9")
+		)
+		(pin "1"
+			(uuid "a43a6832-1658-4fb8-986b-732d3bba8fdd")
+		)
+		(pin "6"
+			(uuid "e2a7c4c8-1bb0-48ba-8f7a-b26dff93b2ba")
+		)
+		(pin "4"
+			(uuid "2aaab0a1-2a47-4479-af45-b572e04cf104")
+		)
+		(pin "2"
+			(uuid "a7653306-74e6-470a-9132-ef454fe068b7")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 63.5 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91eb6f7d-242f-4103-a5c4-6f544fbab1b9")
+		(property "Reference" "S25"
+			(at 74.93 222.2835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 74.93 224.8235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 39.37 224.8235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ea24efa7-1277-45b6-a572-54e1b720c4a4")
+		)
+		(pin "5"
+			(uuid "80f42829-b225-4090-8cd6-9bf8c4db6d99")
+		)
+		(pin "1"
+			(uuid "5987ad5f-3d6f-4165-acb6-15ab22da6b01")
+		)
+		(pin "6"
+			(uuid "f219c820-2519-49f2-a677-13d57a4a4d59")
+		)
+		(pin "4"
+			(uuid "75ffe2a4-1804-40aa-9ab6-fbdd67ac205a")
+		)
+		(pin "2"
+			(uuid "58c4b989-2f67-42ed-9968-337c62363cc4")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 88.9 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a2c5333-11e1-457b-a6cb-b3e76cd50b64")
+		(property "Reference" "S20"
+			(at 100.33 196.8835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 100.33 199.4235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 83.82 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dd9ba5bf-6275-46fc-876c-626845816e76")
+		)
+		(pin "5"
+			(uuid "045aa0cd-ee46-4162-8ebc-f611fbe90c84")
+		)
+		(pin "1"
+			(uuid "e15c18ec-c425-4630-ba9a-5ed87d15537b")
+		)
+		(pin "6"
+			(uuid "ba04d213-48de-4934-b1d2-4bedf3c64596")
+		)
+		(pin "4"
+			(uuid "81dc4651-cf2d-4af4-b2a8-2671e5108725")
+		)
+		(pin "2"
+			(uuid "2260b717-640b-4065-9296-dcb9359032ff")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 139.7 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4e8b433-e34f-4393-bc24-91584e019fc1")
+		(property "Reference" "S16"
+			(at 151.13 171.4835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 151.13 174.0235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fbc34118-0d50-45d4-9d70-3d35f7c2ee64")
+		)
+		(pin "5"
+			(uuid "9826e62b-1525-4dd2-8ac2-7c54155a3d49")
+		)
+		(pin "1"
+			(uuid "b62601d0-f05a-4ed7-ab74-5fb1c4009c1e")
+		)
+		(pin "6"
+			(uuid "37f0d8b3-9bbc-4d82-b2c0-f34581ec42ed")
+		)
+		(pin "4"
+			(uuid "0325253b-2404-41e5-8f69-3d4d1b0aa40c")
+		)
+		(pin "2"
+			(uuid "208e5152-4bf4-47de-b4a1-334e23b2ad8d")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 190.5 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b033622b-5d3b-4a5d-855a-aac02aac6123")
+		(property "Reference" "S18"
+			(at 201.93 171.4835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 201.93 174.0235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 185.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "323b4f06-04c4-4f7d-8016-2aede0addd9c")
+		)
+		(pin "5"
+			(uuid "39d450a6-86be-4959-adc1-2a81cd2697cd")
+		)
+		(pin "1"
+			(uuid "00f71871-0982-43d7-8935-2160507fc4ef")
+		)
+		(pin "6"
+			(uuid "2c2e9e5e-8833-42b4-96f0-f12ee17cddad")
+		)
+		(pin "4"
+			(uuid "c697568f-e4b6-46a6-9f47-7d048216206d")
+		)
+		(pin "2"
+			(uuid "22c520f1-67f0-416a-a954-d689f534071a")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 114.3 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d78960-7284-4618-b3be-ce3610c18f6f")
+		(property "Reference" "S27"
+			(at 125.73 222.2835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 125.73 224.8235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 109.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f6a53ed7-9beb-4893-8d44-18c945f3f437")
+		)
+		(pin "5"
+			(uuid "25965b59-eeca-45e4-b084-fdb21e8ba7bd")
+		)
+		(pin "1"
+			(uuid "2c9d94fb-a11e-4eea-ab1e-61b33f3b6541")
+		)
+		(pin "6"
+			(uuid "8d37cbf0-c0b2-4512-9236-6db5521b282f")
+		)
+		(pin "4"
+			(uuid "e0797325-144a-462c-bd82-39a9ef68675f")
+		)
+		(pin "2"
+			(uuid "0192d0c3-f532-449a-b740-1a7f0f9c242e")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2d5a354-6d0c-4a97-9286-dc6410536ad9")
+		(property "Reference" "#PWR02"
+			(at 276.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_L"
+			(at 274.32 124.4601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +4330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 127 0)
+			(at 270.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +4352,7 @@
 	)
 	(symbol
 		(lib_id "0_graz_symbols:SW_OKM")
-		(at 83.82 165.1 0)
+		(at 139.7 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1914,7 +4360,7 @@
 		(dnp no)
 		(uuid "c685fb47-cb18-428a-bb46-194761e15dab")
 		(property "Reference" "S4"
-			(at 95.25 158.7835 0)
+			(at 151.13 120.6835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +4368,7 @@
 			)
 		)
 		(property "Value" "SW_OKM"
-			(at 95.25 161.3235 0)
+			(at 151.13 123.2235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +4376,7 @@
 			)
 		)
 		(property "Footprint" "Graz_Footprints:One Key Module"
-			(at 78.74 160.02 0)
+			(at 134.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +4385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 160.02 0)
+			(at 134.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +4394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 160.02 0)
+			(at 134.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,6 +4424,243 @@
 			(project "figleaf"
 				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
 					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 139.7 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc3aa139-5478-4ec7-a01b-f88083ac1fcc")
+		(property "Reference" "S28"
+			(at 151.13 222.2835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 151.13 224.8235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 134.62 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "01cf69d7-0979-4589-8242-6f54176fa18e")
+		)
+		(pin "5"
+			(uuid "75c4aa68-b9bf-4dee-88e5-42d59c7646fb")
+		)
+		(pin "1"
+			(uuid "20e7afa2-38e0-49a8-8cc6-0d368b3e9f83")
+		)
+		(pin "6"
+			(uuid "53f948f4-fa45-40b5-9c65-d69dd811c460")
+		)
+		(pin "4"
+			(uuid "74ae4a1b-a566-462a-8854-8c8e233c0d95")
+		)
+		(pin "2"
+			(uuid "f7be9b47-ae55-432c-a361-de301196c3c0")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 190.5 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebfb0be5-21f5-46e2-879c-d4c66f7b2986")
+		(property "Reference" "S30"
+			(at 201.93 222.2835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 201.93 224.8235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 185.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "47ed65cf-ef6d-402c-be63-2f4768dd5be9")
+		)
+		(pin "5"
+			(uuid "1038268c-c8ed-4be8-b207-bbcdc538ae46")
+		)
+		(pin "1"
+			(uuid "39933113-d40f-4a84-bfc7-1eba462cbc8f")
+		)
+		(pin "6"
+			(uuid "342bade9-3cc5-44f8-8685-460199818e0e")
+		)
+		(pin "4"
+			(uuid "818c2d6d-556c-4ab3-ad09-4316f3c6b11a")
+		)
+		(pin "2"
+			(uuid "1163f9ad-7e9f-4148-b769-a3a71271c81d")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_graz_symbols:SW_OKM")
+		(at 190.5 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5040cd3-13df-4da3-ac9f-8b6fc101e83f")
+		(property "Reference" "S6"
+			(at 201.93 120.6835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_OKM"
+			(at 201.93 123.2235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:One Key Module"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2496d7a9-13d8-4927-88b0-60b8c9744bc0")
+		)
+		(pin "5"
+			(uuid "45bed850-4dc3-414d-ab97-bdd6f7f8990a")
+		)
+		(pin "1"
+			(uuid "cb8b79a5-57f6-4467-a2bc-f0ebebcbf2ce")
+		)
+		(pin "6"
+			(uuid "72b5cd1d-252d-42ba-a4e4-982a12b441f1")
+		)
+		(pin "4"
+			(uuid "5a242e41-89f4-4dfd-bffb-c0ee6c50dd37")
+		)
+		(pin "2"
+			(uuid "346d53d6-f2c7-48a6-8bc8-be6a59e92b68")
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "S6")
 					(unit 1)
 				)
 			)
