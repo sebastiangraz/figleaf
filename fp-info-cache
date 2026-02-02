@@ -1,4 +1,4 @@
-27220787723259498
+27243310047866443
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63273,12 +63273,19 @@ GDT 3R-6
 3
 3
 Graz_Footprints
+A1 Board
+Framework A1 input module (big) board
+
+0
+0
+0
+Graz_Footprints
 One Key Module
 Framework One Key Module
 
 0
 14
-10
+6
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -71812,6 +71819,90 @@ Yellow 5381 Series LED
 0
 2
 2
+MCU
+Arduino_Pro_Micro
+
+
+0
+24
+24
+MCU
+Arduino_Pro_Micro_Flipped
+
+
+0
+24
+24
+MCU
+Nice_Nano_V2
+
+
+0
+27
+27
+MCU
+Nice_Nano_V2_Flipped
+
+
+0
+27
+27
+MCU
+RP2040_Pro_Micro
+
+
+0
+31
+31
+MCU
+RP2040_Pro_Micro_Flipped
+
+
+0
+31
+31
+MCU
+RP2040_Stamp
+
+
+0
+80
+40
+MCU
+RP2040_Zero
+
+
+0
+23
+23
+MCU
+RP2040_Zero_Flipped
+
+
+0
+23
+23
+MCU
+Raspberry_Pi_Pico
+
+
+0
+86
+43
+MCU
+Raspberry_Pi_Pico_Flipped
+
+
+0
+86
+43
+MCU
+Seeed_XIAO_RP2040
+
+
+0
+28
+14
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
