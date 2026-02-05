@@ -1504,7 +1504,7 @@
 			)
 		)
 		(fp_text user "B+"
-			(at 10.16 -13.69 0)
+			(at 3.87 -13.69 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e7fb877d-defe-43b4-9a0f-6ac393e3667b")
