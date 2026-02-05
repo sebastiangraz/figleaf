@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|141950000|20000000|25c23536-8643-4882-bea2-9f75fdc46b84|e68617f3-cae4-4835-af5e-1fd8dde43569",
+          ""
+        ],
+        [
+          "silk_edge_clearance|143250000|20000000|25c23536-8643-4882-bea2-9f75fdc46b84|1e51d56a-595b-491a-a8a6-cf7e5fc02760",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -125,7 +134,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.2,
+        "min_copper_edge_clearance": 0.1,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -592,7 +601,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${DNP}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
