@@ -2345,16 +2345,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 215.9) (xy 297.18 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad11ca2e-43d4-457a-97f2-555d2de35046")
-	)
-	(wire
-		(pts
 			(xy 63.5 213.36) (xy 63.5 218.44)
 		)
 		(stroke
@@ -2582,16 +2572,6 @@
 			(type default)
 		)
 		(uuid "d4c71198-e1c8-4859-8555-6ac9a9bcd277")
-	)
-	(wire
-		(pts
-			(xy 295.91 213.36) (xy 297.18 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9b9ebeb-3334-4f91-9cdb-1ba982bede23")
 	)
 	(wire
 		(pts
@@ -3283,7 +3263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 39.37 174.0235 0)
 			(effects
 				(font
@@ -3433,7 +3413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 83.82 147.32 0)
 			(effects
 				(font
@@ -3578,7 +3558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 134.62 147.32 0)
 			(effects
 				(font
@@ -3657,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 134.62 198.12 0)
 			(effects
 				(font
@@ -3805,7 +3785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 39.37 148.6235 0)
 			(effects
 				(font
@@ -3951,7 +3931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 109.22 147.32 0)
 			(effects
 				(font
@@ -4073,16 +4053,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 295.91 213.36 90)
+		(at 297.18 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2ccc8555-4fa2-4ee9-9fcd-7bd6a20dfc05")
 		(property "Reference" "#PWR015"
-			(at 299.72 213.36 0)
+			(at 300.99 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4070,7 @@
 			)
 		)
 		(property "Value" "+BATT_L"
-			(at 292.1 213.3599 90)
+			(at 293.37 215.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 213.36 0)
+			(at 297.18 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 213.36 0)
+			(at 297.18 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 295.91 213.36 0)
+			(at 297.18 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 109.22 198.12 0)
 			(effects
 				(font
@@ -4635,7 +4614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 160.02 198.12 0)
 			(effects
 				(font
@@ -4715,7 +4694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 109.22 172.72 0)
 			(effects
 				(font
@@ -4794,7 +4773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 160.02 121.92 0)
 			(effects
 				(font
@@ -5149,7 +5128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 83.82 121.92 0)
 			(effects
 				(font
@@ -5231,7 +5210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 39.37 123.2235 0)
 			(effects
 				(font
@@ -5443,7 +5422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 83.82 223.52 0)
 			(effects
 				(font
@@ -5522,7 +5501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 160.02 147.32 0)
 			(effects
 				(font
@@ -5667,7 +5646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 160.02 223.52 0)
 			(effects
 				(font
@@ -5746,7 +5725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 185.42 198.12 0)
 			(effects
 				(font
@@ -5825,7 +5804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 185.42 147.32 0)
 			(effects
 				(font
@@ -5905,7 +5884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 83.82 172.72 0)
 			(effects
 				(font
@@ -5987,7 +5966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 39.37 199.4235 0)
 			(effects
 				(font
@@ -6133,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -6212,7 +6191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 160.02 172.72 0)
 			(effects
 				(font
@@ -6294,7 +6273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 39.37 224.8235 0)
 			(effects
 				(font
@@ -6440,7 +6419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 83.82 198.12 0)
 			(effects
 				(font
@@ -6496,7 +6475,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 295.91 215.9 0)
+		(at 297.18 213.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6505,7 +6484,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1b33122-d58e-450c-a844-4870cff09d90")
 		(property "Reference" "#PWR016"
-			(at 295.91 222.25 0)
+			(at 290.83 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,15 +6493,16 @@
 			)
 		)
 		(property "Value" "GND_L"
-			(at 295.91 220.98 0)
+			(at 293.37 213.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 215.9 0)
+			(at 297.18 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 215.9 0)
+			(at 297.18 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +6520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 295.91 215.9 0)
+			(at 297.18 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +6632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 134.62 172.72 0)
 			(effects
 				(font
@@ -6731,7 +6711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 185.42 172.72 0)
 			(effects
 				(font
@@ -6877,7 +6857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 109.22 223.52 0)
 			(effects
 				(font
@@ -7159,7 +7139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 134.62 121.92 0)
 			(effects
 				(font
@@ -7238,7 +7218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 134.62 223.52 0)
 			(effects
 				(font
@@ -7383,7 +7363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 185.42 223.52 0)
 			(effects
 				(font
@@ -7528,7 +7508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:One Key Module"
+		(property "Footprint" "Graz_Footprints:One Key Module Graz"
 			(at 185.42 121.92 0)
 			(effects
 				(font

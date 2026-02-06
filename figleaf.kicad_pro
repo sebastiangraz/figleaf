@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|141950000|20000000|25c23536-8643-4882-bea2-9f75fdc46b84|e68617f3-cae4-4835-af5e-1fd8dde43569",
-          ""
-        ],
-        [
-          "silk_edge_clearance|143250000|20000000|25c23536-8643-4882-bea2-9f75fdc46b84|1e51d56a-595b-491a-a8a6-cf7e5fc02760",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -230,7 +221,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -502,7 +493,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "GND_L"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
