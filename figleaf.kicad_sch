@@ -3388,6 +3388,70 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
+		(at 273.05 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ffc1cdb-ff4a-40de-9dd6-306e1bdf987e")
+		(property "Reference" "H6"
+			(at 275.59 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M1.6_mounting"
+			(at 275.59 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:m1.6"
+			(at 273.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 273.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_graz_symbols:SW_OKM")
 		(at 88.9 152.4 0)
 		(unit 1)
@@ -3686,6 +3750,70 @@
 			(project "figleaf"
 				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
 					(reference "S22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
+		(at 250.19 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19c41441-5ef5-4ac2-a799-c12dcf93d5d4")
+		(property "Reference" "H5"
+			(at 252.73 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M1.6_mounting"
+			(at 252.73 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Graz_Footprints:m1.6"
+			(at 250.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 250.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "figleaf"
+				(path "/fd9c0cf8-91e7-46bd-8f73-27ef3bc34e44"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -4397,7 +4525,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 227.33 190.5 0)
+		(at 273.05 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4406,7 +4534,7 @@
 		(fields_autoplaced yes)
 		(uuid "38ae0950-95ba-47c0-8631-016ee60958df")
 		(property "Reference" "H3"
-			(at 229.87 189.2299 0)
+			(at 275.59 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +4543,7 @@
 			)
 		)
 		(property "Value" "M1.6_mounting"
-			(at 229.87 191.7699 0)
+			(at 275.59 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4552,7 @@
 			)
 		)
 		(property "Footprint" "Graz_Footprints:m1.6"
-			(at 227.33 190.5 0)
+			(at 273.05 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 190.5 0)
+			(at 273.05 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +4570,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 227.33 190.5 0)
+			(at 273.05 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7564,7 +7692,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 248.92 175.26 0)
+		(at 250.19 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7573,7 +7701,7 @@
 		(fields_autoplaced yes)
 		(uuid "f710bc22-d507-4e0a-9f4c-4593aa3eda85")
 		(property "Reference" "H2"
-			(at 251.46 173.9899 0)
+			(at 252.73 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,7 +7710,7 @@
 			)
 		)
 		(property "Value" "M1.6_mounting"
-			(at 251.46 176.5299 0)
+			(at 252.73 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7719,7 @@
 			)
 		)
 		(property "Footprint" "Graz_Footprints:m1.6"
-			(at 248.92 175.26 0)
+			(at 250.19 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7728,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 175.26 0)
+			(at 250.19 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7737,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 248.92 175.26 0)
+			(at 250.19 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7628,7 +7756,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 248.92 190.5 0)
+		(at 227.33 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7637,7 +7765,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbde7817-bff8-4104-8821-25888f063c1e")
 		(property "Reference" "H4"
-			(at 251.46 189.2299 0)
+			(at 229.87 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,7 +7774,7 @@
 			)
 		)
 		(property "Value" "M1.6_mounting"
-			(at 251.46 191.7699 0)
+			(at 229.87 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7655,7 +7783,7 @@
 			)
 		)
 		(property "Footprint" "Graz_Footprints:m1.6"
-			(at 248.92 190.5 0)
+			(at 227.33 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,7 +7792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 190.5 0)
+			(at 227.33 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,7 +7801,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 248.92 190.5 0)
+			(at 227.33 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
