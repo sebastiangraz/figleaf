@@ -6565,7 +6565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P-B"
 			(at 264.16 217.17 0)
 			(effects
 				(font
