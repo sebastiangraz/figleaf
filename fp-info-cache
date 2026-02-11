@@ -1,4 +1,4 @@
-27248621369127211
+27250392097023340
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63275,6 +63275,13 @@ GDT 3R-6
 Graz_Footprints
 A1 Board
 Framework A1 input module (big) board
+
+0
+0
+0
+Graz_Footprints
+Arc_EdgeCut_test
+
 
 0
 0

@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"H1, H2, H3, H4, H5, H6",m1.6,6,M1.6_mounting,
+L_J1,JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,1,Conn_01x02_Socket,
+L_RSW1,SW_SPST_B3U-3000P-B,1,SW_RST,
+L_SW1,SW_SPDT_PCM12,1,SW_SPDT,
+"S1, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S2, S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S3, S30, S4, S5, S6, S7, S8, S9",One Key Module Graz,30,SW_OKM,
+U1,Nice_Nano_V2_Graz,1,Nice_Nano_V2_GRAZ,
