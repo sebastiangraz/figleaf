@@ -1,4 +1,4 @@
-27250392097023340
+27253933657766251
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63284,8 +63284,8 @@ Arc_EdgeCut_test
 
 
 0
-0
-0
+1
+1
 Graz_Footprints
 Nice_Nano_V2_Graz
 
@@ -63307,6 +63307,13 @@ Framework One Key Module
 0
 14
 6
+Graz_Footprints
+XIAO-nRF52840-Plus-SMD
+
+
+0
+29
+29
 Graz_Footprints
 m1.6
 
@@ -71931,6 +71938,13 @@ Seeed_XIAO_RP2040
 0
 28
 14
+MCU
+XIAO-nRF52840-Plus-SMD
+
+
+0
+29
+29
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
