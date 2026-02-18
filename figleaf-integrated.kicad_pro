@@ -592,7 +592,7 @@
           "show": false
         }
       ],
-      "filter_string": "u3",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

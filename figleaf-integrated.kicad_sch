@@ -14154,7 +14154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 236.22 57.15 0)
 			(effects
 				(font
