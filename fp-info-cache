@@ -1,4 +1,4 @@
-27868393844029939
+27870165363849123
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63286,6 +63286,13 @@ Arc_EdgeCut_test
 0
 1
 1
+Graz_Footprints
+DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm
+DFN, 8 Pin (https://www.onsemi.com/pub/Collateral/NUF4401MN-D.PDF#page=6), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+9
+9
 Graz_Footprints
 Nice_Nano_V2_Graz
 

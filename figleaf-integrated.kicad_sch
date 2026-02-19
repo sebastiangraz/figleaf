@@ -6347,7 +6347,7 @@
 		(uuid "f6c96109-4dcb-4fb1-981d-53f0d4342b2d")
 	)
 	(no_connect
-		(at 116.84 78.74)
+		(at 116.84 43.18)
 		(uuid "30078f0d-190d-4e91-a208-f025a61c2790")
 	)
 	(no_connect
@@ -6363,7 +6363,7 @@
 		(uuid "552b3e8f-f3f0-418e-8fb6-515496937028")
 	)
 	(no_connect
-		(at 91.44 83.82)
+		(at 91.44 48.26)
 		(uuid "5c714164-2ddd-4fd5-b740-6ccb0dbb9e39")
 	)
 	(no_connect
@@ -8126,7 +8126,7 @@
 	)
 	(global_label "USB-D-"
 		(shape bidirectional)
-		(at 91.44 78.74 180)
+		(at 91.44 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8136,7 +8136,7 @@
 		)
 		(uuid "33a6c043-6832-48ca-8879-d6695036c158")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.1981 78.74 0)
+			(at 79.1981 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8456,7 @@
 	)
 	(global_label "USB-D+"
 		(shape bidirectional)
-		(at 116.84 83.82 0)
+		(at 116.84 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8466,7 +8466,7 @@
 		)
 		(uuid "9f951125-4435-4d4d-ade5-a59e55546847")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.0819 83.82 0)
+			(at 129.0819 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11635,7 +11635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 93.98 0)
+		(at 104.14 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11643,7 +11643,7 @@
 		(dnp no)
 		(uuid "5ac1da92-63a4-4aa4-9512-67ecb10489f2")
 		(property "Reference" "#PWR09"
-			(at 104.14 100.33 0)
+			(at 104.14 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11652,7 +11652,7 @@
 			)
 		)
 		(property "Value" "GND_L"
-			(at 104.267 98.3742 0)
+			(at 104.267 62.8142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11660,7 +11660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 93.98 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11669,7 +11669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 93.98 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11678,7 +11678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 93.98 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,7 +11935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm"
+		(property "Footprint" "Graz_Footprints:DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm"
 			(at 153.035 138.43 0)
 			(effects
 				(font
@@ -13884,7 +13884,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:SRV05-4")
-		(at 104.14 81.28 0)
+		(at 104.14 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13893,7 +13893,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f363135-a9c7-42c0-8ee9-9b0eaf2d92e2")
 		(property "Reference" "U1"
-			(at 106.9087 66.04 0)
+			(at 106.9087 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13902,7 +13902,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at 106.9087 68.58 0)
+			(at 106.9087 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13911,7 +13911,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 121.92 92.71 0)
+			(at 121.92 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13920,7 +13920,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 104.14 81.28 0)
+			(at 104.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13929,7 +13929,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
-			(at 104.14 81.28 0)
+			(at 104.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15894,7 +15894,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 104.14 68.58 0)
+		(at 104.14 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15903,7 +15903,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0591978-d8e5-4f86-b3e0-7ea2cc06fddf")
 		(property "Reference" "#PWR06"
-			(at 104.14 72.39 0)
+			(at 104.14 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15912,7 +15912,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 104.14 63.5 0)
+			(at 104.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15920,7 +15920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 68.58 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15929,7 +15929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 68.58 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15938,7 +15938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 68.58 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
