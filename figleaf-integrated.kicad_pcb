@@ -280,7 +280,7 @@
 	(footprint "Graz_Footprints:m1.6"
 		(layer "F.Cu")
 		(uuid "039a8874-3528-4061-a4aa-a20bb20a78b4")
-		(at 154.5 114.5)
+		(at 154.5 15.5)
 		(property "Reference" "H3"
 			(at 0 -2.6 0)
 			(unlocked yes)
@@ -1080,87 +1080,6 @@
 				(xyz -90 -0 -0)
 			)
 		)
-	)
-	(footprint "Graz_Footprints:m1.6"
-		(layer "F.Cu")
-		(uuid "17d9d4c4-81fd-43b5-8661-80dc22abfd5c")
-		(at 164 45.25)
-		(property "Reference" "H8"
-			(at 0 -2.6 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "973458d0-b0c7-47b8-b584-0a185f639b2d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 2.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "787ea379-3025-4de7-9a15-c92b3ea988df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09b61044-eed3-49b7-9891-846782a7b96d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "43cf5633-2abc-4faa-becb-a4377f43d635")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/b01fc6d6-dc41-454c-8766-e6d8580a9afa")
-		(sheetname "/")
-		(sheetfile "figleaf-integrated.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "4d552971-9179-4706-88ef-ec7e7e6c591a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 270)
-			(size 2.6289 2.6289)
-			(drill 1.8)
-			(layers "*.Cu")
-			(uuid "120537a7-8288-47b8-b14c-468a48143964")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Graz_Footprints:One Key Module Graz"
 		(layer "F.Cu")
@@ -6226,7 +6145,7 @@
 	(footprint "Graz_Footprints:m1.6"
 		(layer "F.Cu")
 		(uuid "635c0ada-97c5-4057-ba21-75876bd842d7")
-		(at 85 15.5)
+		(at 25.5 114.5)
 		(property "Reference" "H7"
 			(at 0 -2.6 0)
 			(unlocked yes)
@@ -12357,13 +12276,13 @@
 	(footprint "Graz_Footprints:m1.6"
 		(layer "F.Cu")
 		(uuid "9269f575-1f5a-4b4a-90c7-edaf278d621a")
-		(at 154.5 73.25)
+		(at 85 114.5)
 		(property "Reference" "H6"
 			(at 0 -2.6 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0f33990b-42fe-4f74-b1d3-c042e74ddedb")
+			(uuid "e7033f81-adef-4ba6-8290-68b9f3432270")
 			(effects
 				(font
 					(size 1 1)
@@ -12375,7 +12294,7 @@
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ab27d629-6b11-4ab8-b97f-c28e7ca6fcf8")
+			(uuid "1d83678c-80b3-4746-bf21-bd086bc10ab9")
 			(effects
 				(font
 					(size 1 1)
@@ -12383,12 +12302,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9457a4c-43e0-4c3a-a7f3-f5a01b8b99c9")
+			(uuid "32d292dd-83de-4645-b59b-b0dc525c00ad")
 			(effects
 				(font
 					(size 1 1)
@@ -12396,12 +12315,12 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "767bade0-a386-49df-8ab6-3295b4f51910")
+			(uuid "7f202fd5-afe1-4dd9-bb56-2913a17cfe39")
 			(effects
 				(font
 					(size 1 1)
@@ -12413,7 +12332,7 @@
 		(path "/d3ca5e5b-b280-4da0-969b-9ead5f7de4e8")
 		(sheetname "/")
 		(sheetfile "figleaf-integrated.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_text user "${REFERENCE}"
 			(at 0 4 0)
 			(unlocked yes)
@@ -12427,18 +12346,18 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 -8.25 270)
+			(at 0 0 270)
 			(size 2.6289 2.6289)
 			(drill 1.8)
 			(layers "*.Cu")
-			(uuid "5305e554-4af3-4688-aa15-850629de0ad7")
+			(uuid "acbe9183-8f8b-4b22-9b88-222f7acba040")
 		)
 		(embedded_fonts no)
 	)
 	(footprint "Graz_Footprints:m1.6"
 		(layer "F.Cu")
 		(uuid "96406393-3815-45e4-ae52-071f95a54727")
-		(at 85 114.5)
+		(at 154.5 114.5)
 		(property "Reference" "H5"
 			(at 0 -2.6 0)
 			(unlocked yes)
@@ -16134,7 +16053,7 @@
 	(footprint "Graz_Footprints:m1.6"
 		(layer "F.Cu")
 		(uuid "b3aa39dd-3d65-464c-947a-1389325c76d5")
-		(at 25.5 114.5)
+		(at 85 15.5)
 		(property "Reference" "H2"
 			(at 0 -2.6 0)
 			(unlocked yes)
@@ -20553,13 +20472,13 @@
 	(footprint "Graz_Footprints:m1.6"
 		(layer "F.Cu")
 		(uuid "de73df53-28c1-46db-90b3-409bf734fdfc")
-		(at 154.5 15.5)
+		(at 154.5 65)
 		(property "Reference" "H4"
 			(at 0 -2.6 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7f596d03-41e3-416d-9619-670b3afbcacd")
+			(uuid "b623c8db-d496-4ffe-9a7e-7394dae1c847")
 			(effects
 				(font
 					(size 1 1)
@@ -20571,7 +20490,7 @@
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "47e85dfa-8f82-4886-8629-9d80688a8c4a")
+			(uuid "96cb1d07-5c1f-4375-b0ad-7ca81f6bdb62")
 			(effects
 				(font
 					(size 1 1)
@@ -20584,7 +20503,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "517c19ef-7ac7-4db1-be1c-8985b405cb37")
+			(uuid "79c1730a-0107-4657-b96f-50a179c3cd1d")
 			(effects
 				(font
 					(size 1 1)
@@ -20597,7 +20516,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b3266a2-4d33-452f-b224-cda131df0eaa")
+			(uuid "39b8c762-6b59-4de7-b289-7b5f585b6ff3")
 			(effects
 				(font
 					(size 1 1)
