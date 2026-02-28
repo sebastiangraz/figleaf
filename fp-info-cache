@@ -1,4 +1,4 @@
-27870166220221639
+27871938513104415
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63293,6 +63293,13 @@ DFN NoLead
 0
 9
 9
+Graz_Footprints
+Generic_Battery_Connector
+Through hole straight pin header, 1x02, 1.27mm pitch, single row
+Through hole pin header THT 1x02 1.27mm single row
+0
+2
+2
 Graz_Footprints
 Nice_Nano_V2_Graz
 
