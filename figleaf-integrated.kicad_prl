@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 7,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 0.6700000166893005,
       "vias": 0.5099999904632568,
-      "zones": 1.0
+      "zones": 0.8999999761581421
     },
     "selection_filter": {
       "dimensions": true,
@@ -50,7 +50,7 @@
       "shapes"
     ],
     "visible_layers": "00000000_00000000_00000080_2200008d",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",

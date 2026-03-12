@@ -4770,24 +4770,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "SW1"
+				(at 7.874 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_Push_SPDT"
-				(at 0 -5.08 0)
+			(property "Value" "PWR"
+				(at 8.128 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+				(at 1.27 -5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4805,7 +4805,7 @@
 				)
 			)
 			(property "Description" "Momentary Switch, single pole double throw"
-				(at 0 0 0)
+				(at 1.016 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4906,6 +4906,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10030,6 +10048,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 251.46 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ab4c814-2272-442a-943e-882dd2f99df4")
+		(property "Reference" "#PWR03"
+			(at 251.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_L"
+			(at 255.016 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a63270d4-7371-45bc-a43a-2b6f542be0dc")
+		)
+		(instances
+			(project "figleaf-integrated"
+				(path "/49b93484-acc8-4f70-93bc-7a6072a35fe8"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-various:TC2030_SWD")
 		(at 40.005 109.22 0)
 		(unit 1)
@@ -12437,7 +12521,7 @@
 		(dnp no)
 		(uuid "60aa6978-b7e7-4c44-bc6b-f76f1e430c13")
 		(property "Reference" "SW1"
-			(at 270.51 35.56 0)
+			(at 264.414 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12445,15 +12529,15 @@
 			)
 		)
 		(property "Value" "PWR"
-			(at 270.51 38.1 0)
+			(at 264.668 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:SW_MSK12C02-HB"
-			(at 256.54 34.29 0)
+		(property "Footprint" "Graz_Footprints:SW_SSSS811101"
+			(at 257.81 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12471,7 +12555,7 @@
 			)
 		)
 		(property "Description" "Momentary Switch, single pole double throw"
-			(at 256.54 34.29 0)
+			(at 257.556 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12487,6 +12571,9 @@
 		)
 		(pin "3"
 			(uuid "a75e8438-5996-4a77-b21a-6cb6d4544db7")
+		)
+		(pin "MP"
+			(uuid "6099fac5-3700-4d02-8815-0991fb7ecd2e")
 		)
 		(instances
 			(project "figleaf-integrated"
