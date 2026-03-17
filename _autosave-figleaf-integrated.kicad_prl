@@ -8,12 +8,12 @@
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.8199999928474426,
+      "images": 1.0,
       "pads": 1.0,
       "shapes": 1.0,
-      "tracks": 0.8999999761581421,
-      "vias": 1.0,
-      "zones": 0.8299999833106995
+      "tracks": 0.6700000166893005,
+      "vias": 0.5099999904632568,
+      "zones": 0.8999999761581421
     },
     "selection_filter": {
       "dimensions": true,
@@ -40,7 +40,6 @@
       "footprint_references",
       "tracks",
       "drc_errors",
-      "drawing_sheet",
       "bitmaps",
       "pads",
       "zones",
@@ -50,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000080_2200008d",
+    "visible_layers": "00000000_00000000_00000080_22000085",
     "zone_display_mode": 0
   },
   "git": {
