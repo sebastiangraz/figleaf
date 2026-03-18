@@ -122,7 +122,7 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "max_error": 0.004,
+        "max_error": 0.003,
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.195,
