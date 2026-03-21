@@ -503,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "figleaf-integrated.step",
+      "step": "assets/figleaf-PCB.step",
       "svg": "",
       "vrml": ""
     },
