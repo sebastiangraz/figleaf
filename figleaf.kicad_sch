@@ -13203,7 +13203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:nRF52840_moko_mk08"
+		(property "Footprint" "Graz_Footprints:nRF52840_moko_mk08_GRAZ"
 			(at 87.63 118.11 90)
 			(effects
 				(font
