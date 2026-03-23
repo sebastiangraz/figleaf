@@ -9218,7 +9218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:m1.6"
+		(property "Footprint" "Graz_Footprints:MountingHole_M2_Graz"
 			(at 43.18 176.53 0)
 			(effects
 				(font
@@ -9497,7 +9497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:m1.6"
+		(property "Footprint" "Graz_Footprints:MountingHole_M2_Graz"
 			(at 83.82 176.53 0)
 			(effects
 				(font
@@ -14136,7 +14136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:m1.6"
+		(property "Footprint" "Graz_Footprints:MountingHole_M2_Graz"
 			(at 63.5 176.53 0)
 			(effects
 				(font
@@ -14966,7 +14966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:m1.6"
+		(property "Footprint" "Graz_Footprints:MountingHole_M2_Graz"
 			(at 22.86 191.77 0)
 			(effects
 				(font
@@ -15409,7 +15409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:m1.6"
+		(property "Footprint" "Graz_Footprints:MountingHole_M2_Graz"
 			(at 63.5 191.77 0)
 			(effects
 				(font
@@ -16828,7 +16828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:m1.6"
+		(property "Footprint" "Graz_Footprints:MountingHole_M2_Graz"
 			(at 43.18 191.77 0)
 			(effects
 				(font
@@ -17537,7 +17537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Graz_Footprints:m1.6"
+		(property "Footprint" "Graz_Footprints:MountingHole_M2_Graz"
 			(at 22.86 176.53 0)
 			(effects
 				(font
