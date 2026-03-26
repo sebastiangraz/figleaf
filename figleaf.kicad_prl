@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 1.0,
@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 0.9100000262260437,
       "vias": 0.5099999904632568,
-      "zones": 0.23000000417232513
+      "zones": 0.7900000214576721
     },
     "selection_filter": {
       "dimensions": true,
@@ -96,7 +96,7 @@
       91,
       65,
       91,
-      91
+      1691
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
