@@ -734,6 +734,126 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -6479,6 +6599,12 @@
 		(uuid "15a8ec21-cf92-48ee-9439-5cafda9e37c2")
 	)
 	(junction
+		(at 67.31 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "231a5afb-5f3e-4589-ab33-16bc9fd9ec89")
+	)
+	(junction
 		(at 93.98 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6591,6 +6717,12 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "c1641b44-3cab-47ce-9023-ec60f4497e5b")
+	)
+	(junction
+		(at 67.31 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c32dd35c-99e8-4b46-abaf-9e6bbb16ddee")
 	)
 	(junction
 		(at 49.53 29.21)
@@ -6921,6 +7053,16 @@
 			(type default)
 		)
 		(uuid "1ac46ed9-dcb9-42f7-8927-0310df67b3a9")
+	)
+	(wire
+		(pts
+			(xy 67.31 104.14) (xy 69.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8dea4a-7b7d-4539-95e8-f1475b8e842a")
 	)
 	(wire
 		(pts
@@ -7281,6 +7423,16 @@
 			(type default)
 		)
 		(uuid "5e2e81ab-d299-44c8-a3ef-fd68111f0456")
+	)
+	(wire
+		(pts
+			(xy 64.77 99.06) (xy 69.85 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e960d41-3427-44a6-9201-3a3ad3e70fd8")
 	)
 	(wire
 		(pts
@@ -7654,6 +7806,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 101.6) (xy 69.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972d2ca3-dfae-4271-89fc-bcf7e05edf12")
+	)
+	(wire
+		(pts
 			(xy 313.69 127) (xy 313.69 132.08)
 		)
 		(stroke
@@ -7804,6 +7966,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 104.14) (xy 67.31 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36b4600-861d-452a-851c-5fc43157cb64")
+	)
+	(wire
+		(pts
 			(xy 262.89 152.4) (xy 262.89 157.48)
 		)
 		(stroke
@@ -7821,6 +7993,16 @@
 			(type default)
 		)
 		(uuid "b468380f-4c0a-4fa6-b2aa-633fbb477e27")
+	)
+	(wire
+		(pts
+			(xy 64.77 101.6) (xy 67.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75757c2-1620-4845-a8eb-85768f8b550c")
 	)
 	(wire
 		(pts
@@ -8224,7 +8406,7 @@
 	)
 	(global_label "USB-D+"
 		(shape bidirectional)
-		(at 69.85 101.6 180)
+		(at 64.77 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8234,7 +8416,7 @@
 		)
 		(uuid "038df452-3190-4251-936e-fcef9f65fb41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2121 101.6794 0)
+			(at 54.1321 101.6794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,7 +8494,7 @@
 	)
 	(global_label "USB-D-"
 		(shape bidirectional)
-		(at 69.85 104.14 180)
+		(at 64.77 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8322,7 +8504,7 @@
 		)
 		(uuid "1e9ff1a6-01e9-4d6f-b624-ac5161582d7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2121 104.2194 0)
+			(at 54.1321 104.2194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10763,6 +10945,71 @@
 			(project "figleaf-integrated"
 				(path "/49b93484-acc8-4f70-93bc-7a6072a35fe8"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 67.31 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33f6112a-bb18-4041-885b-75b2b27fdd84")
+		(property "Reference" "TP2"
+			(at 65.7225 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 65.7225 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 67.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ead986f2-acef-46e8-bd93-18e4368559df")
+		)
+		(instances
+			(project "figleaf"
+				(path "/49b93484-acc8-4f70-93bc-7a6072a35fe8"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -14382,6 +14629,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 67.31 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "868482d0-e94e-4e20-9c66-aa4dcb020947")
+		(property "Reference" "TP1"
+			(at 68.58 104.4574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 68.58 106.9974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 67.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a022c27d-0960-4dc6-9e3d-8f5bd3a6e2b8")
+		)
+		(instances
+			(project ""
+				(path "/49b93484-acc8-4f70-93bc-7a6072a35fe8"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_graz_symbols:SW_OKM")
 		(at 288.29 116.84 0)
 		(unit 1)
@@ -17272,7 +17586,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 69.85 99.06 90)
+		(at 64.77 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17280,7 +17594,7 @@
 		(dnp no)
 		(uuid "e990e97c-654e-4693-8af5-f7cd7f643328")
 		(property "Reference" "#PWR051"
-			(at 73.66 99.06 0)
+			(at 68.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17289,7 +17603,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 64.135 99.06 90)
+			(at 59.055 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17297,7 +17611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 99.06 0)
+			(at 64.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17306,7 +17620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 99.06 0)
+			(at 64.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17315,7 +17629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 99.06 0)
+			(at 64.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
