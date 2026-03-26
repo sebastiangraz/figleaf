@@ -6512,7 +6512,7 @@
 		)
 		(uuid f4cd6059-2d26-43d9-bce3-0a280c86f90e)
 	)
-	(text "TMR: (10 x 48 s/kOhm) * 47 kOhm = 22560s = 6.27h\nILIM: 1550 AOhm / 1500 Ohm = 1.03 A = 1030 mA\nISET: 890 AOhm / 3900 Ohm = 0.228 A = 230 mA\nEN1: 1, EN2: 0 = 475 mA MAX\nTS: 10 kOhm to GND_L = no OTP"
+	(text "TMR: (10 x 48 s/kOhm) * 47 kOhm = 22560s = 6.27h\nILIM: 1550 AOhm / 1500 Ohm = 1.03 A = 1030 mA\nISET: 890 AOhm / 3900 Ohm = 0.228 A = 230 mA\nEN1: 1, EN2: 0 = 475 mA MAX\nTS: 10 kOhm to GND = no OTP"
 		(exclude_from_sim no)
 		(at 140.97 33.02 0)
 		(effects
@@ -9455,7 +9455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 154.94 50.7999 90)
 			(effects
 				(font
@@ -9970,7 +9970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 369.5699 232.41 90)
 			(effects
 				(font
@@ -10247,7 +10247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 255.016 39.624 0)
 			(effects
 				(font
@@ -11033,7 +11033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 344.1701 102.87 90)
 			(effects
 				(font
@@ -11301,7 +11301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 267.9701 102.87 90)
 			(effects
 				(font
@@ -11737,7 +11737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 344.1699 232.41 90)
 			(effects
 				(font
@@ -11951,7 +11951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 318.7699 232.41 90)
 			(effects
 				(font
@@ -12321,7 +12321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 267.9699 232.41 90)
 			(effects
 				(font
@@ -12475,7 +12475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 104.267 62.8142 0)
 			(effects
 				(font
@@ -12540,7 +12540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 67.4116 45.8216 0)
 			(effects
 				(font
@@ -12607,7 +12607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 45.085 121.92 0)
 			(effects
 				(font
@@ -13306,7 +13306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 318.7701 102.87 90)
 			(effects
 				(font
@@ -13373,7 +13373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 154.94 58.4199 90)
 			(effects
 				(font
@@ -14146,7 +14146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 231.267 69.1642 0)
 			(effects
 				(font
@@ -14290,7 +14290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 293.3699 232.41 90)
 			(effects
 				(font
@@ -14501,7 +14501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 171.577 139.0142 0)
 			(effects
 				(font
@@ -14793,7 +14793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 171.577 75.5142 0)
 			(effects
 				(font
@@ -15108,7 +15108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 45.085 140.97 0)
 			(effects
 				(font
@@ -15711,7 +15711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 50.8 77.4699 0)
 			(effects
 				(font
@@ -15841,7 +15841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 153.797 139.0142 0)
 			(effects
 				(font
@@ -16275,7 +16275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 242.5699 232.41 90)
 			(effects
 				(font
@@ -16422,7 +16422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 246.38 45.5294 0)
 			(effects
 				(font
@@ -16488,7 +16488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 293.3701 102.87 90)
 			(effects
 				(font
@@ -16633,7 +16633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 242.5701 102.87 90)
 			(effects
 				(font
@@ -16998,7 +16998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 369.5701 102.87 90)
 			(effects
 				(font
@@ -17328,7 +17328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
+		(property "Value" "GND"
 			(at 88.9 163.195 0)
 			(effects
 				(font
