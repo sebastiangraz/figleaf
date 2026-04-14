@@ -58,7 +58,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|134350000|11600000|F.Cu|4|34d09e2c-6fad-4006-9a9b-dd27508b1139|268cdf37-4da0-4359-b1e8-d53a9ff7f964",
+          ""
+        ],
+        [
+          "unconnected_items|136212868|8751547|F.Cu|4|14b16e9c-6cdf-4646-91cb-41e46abc9261|2aaefbac-b73a-452d-8f32-2ad7968f5b38",
+          ""
+        ],
+        [
+          "unconnected_items|142730508|41380383|F.Cu|4|93e63056-e7d7-4d09-be83-a2c04bed25ec|c81b93bb-bbf7-48fc-87c4-dfc3490246c5",
+          ""
+        ],
+        [
+          "unconnected_items|143997577|10766219|F.Cu|4|169cbe5b-7ded-47f6-8da2-eb70f42651c5|929bad01-e2b2-41ea-b28a-01806650d6ed",
+          ""
+        ],
+        [
+          "unconnected_items|165000000|35750000|F.Cu|4|5e2b791b-2556-49bf-bb89-b40bcbccfdaa|4d065cf4-02c9-4b31-98cd-dfa7fa0b11cd",
+          ""
+        ],
+        [
+          "unconnected_items|165985000|9500000|F.Cu|4|5752fd1f-f8da-404b-97cb-e8fec099b657|84c6e41b-e271-4234-bd41-24c747f115e6",
+          ""
+        ],
+        [
+          "unconnected_items|178115000|32885000|F.Cu|4|50e372c2-a253-4568-9002-79942f810529|4deb9c6b-ec60-4a49-ac27-af610cbd595d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -656,6 +685,14 @@
     [
       "49b93484-acc8-4f70-93bc-7a6072a35fe8",
       "Root"
+    ],
+    [
+      "df4e2d31-3761-4d79-9fe5-fff699d2b216",
+      "left"
+    ],
+    [
+      "7634c269-1c62-47bf-a0b1-199c0b1eba0f",
+      "right"
     ]
   ],
   "text_variables": {}
