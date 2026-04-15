@@ -39300,6 +39300,7 @@
 				(pins "2" "3" "4" "6" "1" "5")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.202392 1.9055)
@@ -52063,6 +52064,7 @@
 				(pins "2" "3" "4" "6" "1" "5")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.202392 1.9055)
@@ -89040,7 +89042,7 @@
 		(net "/right/EARTH")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30004)
+		(priority 30002)
 		(attr
 			(teardrop
 				(type padvia)
@@ -90612,7 +90614,7 @@
 		(net "/right/EARTH")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30006)
+		(priority 30007)
 		(attr
 			(teardrop
 				(type padvia)
@@ -90810,7 +90812,7 @@
 		(net "/right/EARTH")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30005)
+		(priority 30003)
 		(attr
 			(teardrop
 				(type padvia)
@@ -91239,7 +91241,7 @@
 		(net "/left/EARTH")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30002)
+		(priority 30004)
 		(attr
 			(teardrop
 				(type padvia)
@@ -91886,7 +91888,7 @@
 		(net "/left/EARTH")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30007)
+		(priority 30006)
 		(attr
 			(teardrop
 				(type padvia)
@@ -92292,7 +92294,7 @@
 		(net "/left/EARTH")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30003)
+		(priority 30005)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117465,7 +117467,7 @@
 		(net "/right/row_3")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30052)
+		(priority 30044)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117498,7 +117500,7 @@
 		(net "+VSW")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30043)
+		(priority 30039)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117585,7 +117587,7 @@
 		(net "GND")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30072)
+		(priority 30068)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117740,7 +117742,7 @@
 		(net "/left/SWDIO")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30037)
+		(priority 30033)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117857,7 +117859,7 @@
 		(net "/left/USB-D+")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30099)
+		(priority 30096)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117932,7 +117934,7 @@
 		(net "/left/col_3")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30075)
+		(priority 30071)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118271,7 +118273,7 @@
 		(net "/right/USB-D+")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30108)
+		(priority 30104)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118304,7 +118306,7 @@
 		(net "+5V")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30033)
+		(priority 30029)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118341,7 +118343,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30085)
+		(priority 30082)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118451,7 +118453,7 @@
 		(net "Net-(U4-TS)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30126)
+		(priority 30122)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118486,7 +118488,7 @@
 		(net "/left/SWDCLK")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30038)
+		(priority 30034)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118608,7 +118610,7 @@
 		(net "/right/USB-D-")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30031)
+		(priority 30027)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118896,7 +118898,7 @@
 		(net "/right/USB-D+")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30107)
+		(priority 30103)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119008,7 +119010,7 @@
 		(net "+3.3V")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30069)
+		(priority 30065)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119084,7 +119086,7 @@
 		(net "/left/RST")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30030)
+		(priority 30026)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119187,7 +119189,7 @@
 		(net "/right/col_0")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30068)
+		(priority 30064)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119222,7 +119224,7 @@
 		(net "Net-(SW3-A)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30024)
+		(priority 30020)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119259,7 +119261,7 @@
 		(net "/left/USB-D-")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30100)
+		(priority 30099)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119430,7 +119432,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30074)
+		(priority 30070)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119465,7 +119467,7 @@
 		(net "Net-(J4-CC2)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30110)
+		(priority 30106)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119498,7 +119500,7 @@
 		(net "/right/SYSOFF")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30066)
+		(priority 30062)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119653,7 +119655,7 @@
 		(net "GND")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30016)
+		(priority 30012)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119688,7 +119690,7 @@
 		(net "/right/USB-D+")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30103)
+		(priority 30093)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119721,7 +119723,7 @@
 		(net "+VSW")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30124)
+		(priority 30120)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119798,7 +119800,7 @@
 		(net "/left/col_2")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30044)
+		(priority 30040)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119831,7 +119833,7 @@
 		(net "+VSW")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30123)
+		(priority 30121)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119905,7 +119907,7 @@
 		(net "/right/row_0")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30049)
+		(priority 30048)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119938,7 +119940,7 @@
 		(net "/right/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30078)
+		(priority 30074)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120013,7 +120015,7 @@
 		(net "+BATT")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30125)
+		(priority 30118)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120046,7 +120048,7 @@
 		(net "+VSW")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30111)
+		(priority 30107)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120205,7 +120207,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30077)
+		(priority 30072)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120368,7 +120370,7 @@
 		(net "/right/USB-D-")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30106)
+		(priority 30102)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120436,7 +120438,7 @@
 		(net "GND")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30082)
+		(priority 30078)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120546,7 +120548,7 @@
 		(net "+3.3V")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30117)
+		(priority 30113)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120670,7 +120672,7 @@
 		(net "/left/SCL")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30081)
+		(priority 30077)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120705,7 +120707,7 @@
 		(net "/right/SWDCLK")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30115)
+		(priority 30111)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120787,7 +120789,7 @@
 		(net "/right/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30088)
+		(priority 30087)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120824,7 +120826,7 @@
 		(net "+5V")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30118)
+		(priority 30114)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120982,7 +120984,7 @@
 		(net "/right/SWDIO")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30127)
+		(priority 30123)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121113,7 +121115,7 @@
 		(net "/left/row_4")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30023)
+		(priority 30019)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121150,7 +121152,7 @@
 		(net "/right/SWDCLK")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30050)
+		(priority 30046)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121183,7 +121185,7 @@
 		(net "+VSW")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30114)
+		(priority 30110)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121216,7 +121218,7 @@
 		(net "/left/col_0")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30019)
+		(priority 30015)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121253,7 +121255,7 @@
 		(net "/left/row_0")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30045)
+		(priority 30041)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121566,7 +121568,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30062)
+		(priority 30057)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121635,7 +121637,7 @@
 		(net "/right/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30079)
+		(priority 30075)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121670,7 +121672,7 @@
 		(net "/right/USB-D-")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30109)
+		(priority 30105)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121742,7 +121744,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30086)
+		(priority 30081)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121901,7 +121903,7 @@
 		(net "/left/row_3")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30025)
+		(priority 30021)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122019,7 +122021,7 @@
 		(net "+VSW")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30122)
+		(priority 30119)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122052,7 +122054,7 @@
 		(net "/right/USB-D-")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30105)
+		(priority 30101)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122118,7 +122120,7 @@
 		(net "/right/col_1")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30027)
+		(priority 30023)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122151,7 +122153,7 @@
 		(net "/right/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30087)
+		(priority 30083)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122188,7 +122190,7 @@
 		(net "/right/col_2")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30070)
+		(priority 30066)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122261,7 +122263,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30064)
+		(priority 30060)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122411,7 +122413,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30073)
+		(priority 30069)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122446,7 +122448,7 @@
 		(net "/left/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30092)
+		(priority 30084)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122614,7 +122616,7 @@
 		(net "/left/row_2")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30021)
+		(priority 30017)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122692,7 +122694,7 @@
 		(net "/left/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30091)
+		(priority 30088)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122892,7 +122894,7 @@
 		(net "/right/row_3")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30051)
+		(priority 30043)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123343,7 +123345,7 @@
 		(net "/left/USB-D+")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30098)
+		(priority 30097)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123374,7 +123376,7 @@
 		(net "GND")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30035)
+		(priority 30031)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123409,7 +123411,7 @@
 		(net "Net-(U3-TS)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30119)
+		(priority 30115)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123535,7 +123537,7 @@
 		(net "GND")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30026)
+		(priority 30022)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123658,7 +123660,7 @@
 		(net "/right/col_3")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30028)
+		(priority 30024)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123738,7 +123740,7 @@
 		(net "GND")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30034)
+		(priority 30030)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123775,7 +123777,7 @@
 		(net "/right/row_0")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30048)
+		(priority 30049)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123808,7 +123810,7 @@
 		(net "/left/col_1")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30020)
+		(priority 30016)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123923,7 +123925,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30056)
+		(priority 30052)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124137,7 +124139,7 @@
 		(net "Net-(J4-CC1)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30104)
+		(priority 30100)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124482,7 +124484,7 @@
 		(net "/right/RST")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30039)
+		(priority 30035)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124519,7 +124521,7 @@
 		(net "/left/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30090)
+		(priority 30085)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124636,7 +124638,7 @@
 		(net "/left/SWDCLK")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30041)
+		(priority 30037)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124752,7 +124754,7 @@
 		(net "/left/SWDIO")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30060)
+		(priority 30056)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124963,7 +124965,7 @@
 		(net "+VSW")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30011)
+		(priority 30009)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125000,7 +125002,7 @@
 		(net "Net-(SW1-A)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30067)
+		(priority 30063)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125167,7 +125169,7 @@
 		(net "+BATT")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30112)
+		(priority 30108)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125241,7 +125243,7 @@
 		(net "+3.3V")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30042)
+		(priority 30038)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125276,7 +125278,7 @@
 		(net "/left/USB-D+")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30101)
+		(priority 30095)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125307,7 +125309,7 @@
 		(net "Net-(J2-CC1)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30113)
+		(priority 30109)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125510,7 +125512,7 @@
 		(net "+5V")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30013)
+		(priority 30010)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125547,7 +125549,7 @@
 		(net "/right/row_2")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30057)
+		(priority 30053)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125582,7 +125584,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30076)
+		(priority 30073)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125686,7 +125688,7 @@
 		(net "/right/col_4")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30059)
+		(priority 30055)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125721,7 +125723,7 @@
 		(net "/left/RST")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30046)
+		(priority 30042)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125877,7 +125879,7 @@
 		(net "GND")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30029)
+		(priority 30025)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125914,7 +125916,7 @@
 		(net "/right/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30096)
+		(priority 30091)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125947,7 +125949,7 @@
 		(net "+3.3V")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30054)
+		(priority 30050)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126022,7 +126024,7 @@
 		(net "/left/SYSOFF")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30036)
+		(priority 30032)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126190,7 +126192,7 @@
 		(net "+BATT")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30120)
+		(priority 30116)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126223,7 +126225,7 @@
 		(net "/right/SDA")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30080)
+		(priority 30076)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126344,7 +126346,7 @@
 		(net "/right/col_5")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30065)
+		(priority 30061)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126865,7 +126867,7 @@
 		(net "/right/RST")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30010)
+		(priority 30008)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126939,7 +126941,7 @@
 		(net "/right/row_1")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30047)
+		(priority 30045)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127013,7 +127015,7 @@
 		(net "/right/USB-D+")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30032)
+		(priority 30028)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127050,7 +127052,7 @@
 		(net "/left/row_1")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30017)
+		(priority 30013)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127085,7 +127087,7 @@
 		(net "/left/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30089)
+		(priority 30086)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127120,7 +127122,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30055)
+		(priority 30051)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127451,7 +127453,7 @@
 		(net "/left/USB-D-")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30015)
+		(priority 30011)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127486,7 +127488,7 @@
 		(net "/right/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30095)
+		(priority 30092)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127781,7 +127783,7 @@
 		(net "Net-(J2-CC2)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30102)
+		(priority 30094)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127812,7 +127814,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30061)
+		(priority 30059)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127845,7 +127847,7 @@
 		(net "/right/SWDCLK")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30053)
+		(priority 30047)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127958,7 +127960,7 @@
 		(net "/right/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30094)
+		(priority 30089)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128168,7 +128170,7 @@
 		(net "/right/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30084)
+		(priority 30080)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128329,7 +128331,7 @@
 		(net "/left/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30001)
+		(priority 30000)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128455,7 +128457,7 @@
 		(net "VBUS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30063)
+		(priority 30058)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128488,7 +128490,7 @@
 		(net "/left/col_5")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30022)
+		(priority 30018)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128771,7 +128773,7 @@
 		(net "/right/SCL")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30058)
+		(priority 30054)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128858,7 +128860,7 @@
 		(net "/left/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30000)
+		(priority 30001)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129098,7 +129100,7 @@
 		(net "/right/RST")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30071)
+		(priority 30067)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129343,7 +129345,7 @@
 		(net "/left/RST")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30040)
+		(priority 30036)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129420,7 +129422,7 @@
 		(net "GND")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30116)
+		(priority 30112)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129453,7 +129455,7 @@
 		(net "/right/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30093)
+		(priority 30090)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129529,7 +129531,7 @@
 		(net "+VSW")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30121)
+		(priority 30117)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129601,7 +129603,7 @@
 		(net "/left/USB-D-")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30097)
+		(priority 30098)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129717,7 +129719,7 @@
 		(net "/left/SDA")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30018)
+		(priority 30014)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129752,7 +129754,7 @@
 		(net "/right/EARTH")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30083)
+		(priority 30079)
 		(attr
 			(teardrop
 				(type padvia)
