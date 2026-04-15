@@ -60,16 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|134350000|11600000|F.Cu|4|34d09e2c-6fad-4006-9a9b-dd27508b1139|d5a8740f-d3e5-4ce4-ae5d-658ccf935d22",
-          ""
-        ],
-        [
-          "unconnected_items|165000000|35750000|F.Cu|4|bead0a1c-8cb8-44bc-9db5-1af0f0da1293|dea3b0a3-9971-4713-a6ba-77604d0d401e",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
