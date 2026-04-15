@@ -67498,6 +67498,26 @@
 		(uuid "a784b9c2-31f9-46bb-a65e-485ec4a93965")
 	)
 	(gr_line
+		(start -4 105)
+		(end -4 0)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Cmts.User")
+		(uuid "8d8db147-9c88-4ef4-9fce-732a512aa4a6")
+	)
+	(gr_line
+		(start 0 0)
+		(end 0 105)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Cmts.User")
+		(uuid "3d1c4b89-9c56-410f-afa7-cc5df474d7da")
+	)
+	(gr_line
 		(start -149 6)
 		(end -149 11.25)
 		(stroke
@@ -68854,6 +68874,42 @@
 				(thickness 0.4)
 			)
 			(justify left top)
+		)
+	)
+	(gr_text "V-CUT↴↴↴	V-CUT↴↴↴	V-CUT↴↴↴"
+		(at -1 52.5 90)
+		(layer "Cmts.User")
+		(uuid "5074042f-e85c-4695-b7d8-23cc959831ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "V-CUT↴↴↴	V-CUT↴↴↴"
+		(at -3 24 270)
+		(layer "Cmts.User")
+		(uuid "db5dd691-a3a2-4df6-8f0a-73178d42f1a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "V-CUT↴↴↴	V-CUT↴↴↴"
+		(at -3 81 270)
+		(layer "Cmts.User")
+		(uuid "76070f38-38ab-4bba-8e50-d5c5b97bccf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
 		)
 	)
 	(segment
