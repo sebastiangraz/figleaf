@@ -13703,7 +13703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kigraz:DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm"
+		(property "Footprint" "kigraz:DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm_SM0.22mm"
 			(at 153.035 137.16 0)
 			(hide yes)
 			(show_name no)
