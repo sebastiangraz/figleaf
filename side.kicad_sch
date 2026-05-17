@@ -5769,7 +5769,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "kigraz:SW_Push_SPDT"
+		(symbol "kigraz:SW_SPDT_MP"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -5811,7 +5811,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0.508 -8.636 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5821,7 +5821,7 @@
 					)
 				)
 			)
-			(property "Description" "Momentary Switch, single pole double throw"
+			(property "Description" "Switch, single pole double throw"
 				(at 1.016 6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5832,7 +5832,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON mounting point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5843,22 +5843,10 @@
 					)
 				)
 			)
-			(symbol "SW_Push_SPDT_0_0"
+			(symbol "SW_SPDT_MP_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.016) (xy 0 3.048)
-					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5879,7 +5867,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_SPDT_0_1"
+			(symbol "SW_SPDT_MP_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.2032) (xy 2.3368 1.9812)
@@ -5904,7 +5892,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_SPDT_1_1"
+			(symbol "SW_SPDT_MP_1_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -13777,7 +13765,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kigraz:SW_Push_SPDT")
+		(lib_id "kigraz:SW_SPDT_MP")
 		(at 256.54 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -13818,8 +13806,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 256.54 33.02 0)
+		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SSSS811101/"
+			(at 257.048 41.656 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13829,7 +13817,7 @@
 				)
 			)
 		)
-		(property "Description" "Momentary Switch, single pole double throw"
+		(property "Description" "Switch, single pole double throw"
 			(at 257.556 26.924 0)
 			(hide yes)
 			(show_name no)
