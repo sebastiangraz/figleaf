@@ -72319,7 +72319,7 @@
 		(property "Reference" "SW1"
 			(at 0 -3.483 180)
 			(layer "B.SilkS")
-			(uuid "7bf8ce3b-6b67-422b-9389-23e1239a8f84")
+			(uuid "7aea6e5d-7449-4c1e-b7da-9cc9fc81a22e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -72331,7 +72331,7 @@
 		(property "Value" "PWR"
 			(at 5.005 -3.865 180)
 			(layer "B.Fab")
-			(uuid "85db7e88-44b8-4d0e-9ad0-d8c68c2cbfc7")
+			(uuid "92f76f07-0e51-40f8-bca6-55c33e102507")
 			(effects
 				(font
 					(size 1 1)
@@ -72344,7 +72344,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ca7d7a24-06e9-4cb7-a2f8-f90291c510d0")
+			(uuid "7d7bf262-1926-4a90-a6a3-542b36a6c983")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72356,7 +72356,7 @@
 		(property "Description" "SSSS811101"
 			(at 0 0 180)
 			(layer "B.Fab")
-			(uuid "9eedf44c-522f-45ca-9fd8-549fdcdfb57a")
+			(uuid "abb173f6-0f6d-44bd-9f14-4368e37b9f62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74134,7 +74134,7 @@
 		(property "Reference" "J2"
 			(at 0 -7.935 180)
 			(layer "B.SilkS")
-			(uuid "4a30b6f3-6621-445a-b265-cd5ec1369a54")
+			(uuid "fe335d93-eacc-48a4-b71b-dbbb4aa9dd25")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -74146,7 +74146,7 @@
 		(property "Value" "HRO_TYPE-C-31-M-14"
 			(at 0 5.5 180)
 			(layer "B.Fab")
-			(uuid "17187f7a-1473-42fb-8a56-0135a30ca751")
+			(uuid "b393f2df-530b-449b-a2ae-f37119da5c1c")
 			(effects
 				(font
 					(size 1 1)
@@ -74159,7 +74159,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4ee63d12-6816-41bb-bd54-11dd22e56259")
+			(uuid "90f54cd4-1acd-4f49-aa89-36fdc636526c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74171,7 +74171,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cb0cf90b-6b8c-45c6-8c9d-eb6121df6332")
+			(uuid "06dc9399-9619-461a-9b67-7d96c9a31dab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77036,6 +77036,42 @@
 		(layer "B.Cu")
 		(uuid "b96bc2dc-b183-4a65-b5fb-4021bd5839a0")
 	)
+	(gr_rect
+		(start -138.470842 7.083607)
+		(end -137.179981 8.179148)
+		(radius 0.125)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "0dc17b7c-607a-47d7-a3ec-582e9774f022")
+	)
+	(gr_rect
+		(start -136.900251 7.079704)
+		(end -133.100251 8.180701)
+		(radius 0.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "a76f6fb7-45c3-4edc-91c5-dbe20958b39b")
+	)
+	(gr_rect
+		(start -132.818938 7.083765)
+		(end -131.528077 8.179306)
+		(radius 0.125)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "0438540a-425e-48a7-9cfb-97f0e5e00214")
+	)
 	(gr_poly
 		(pts
 			(xy -7.08511 47.004606) (xy -7.084042 46.959654) (xy -7.077044 46.903745) (xy -7.061325 46.838693)
@@ -77175,6 +77211,42 @@
 		(fill yes)
 		(layer "B.Mask")
 		(uuid "a9315d28-3181-4dce-a765-565f33b920dc")
+	)
+	(gr_rect
+		(start 127.529409 7.088237)
+		(end 128.82027 8.183778)
+		(radius 0.125)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "2768c12c-fda0-49b0-88ba-1217507dd09b")
+	)
+	(gr_rect
+		(start 129.1 7.084334)
+		(end 132.9 8.185331)
+		(radius 0.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "5582c353-d28d-427d-9f9a-746ec64d5f8b")
+	)
+	(gr_rect
+		(start 133.181313 7.088395)
+		(end 134.472174 8.183936)
+		(radius 0.125)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "61952642-d81c-4361-8ecd-ac14f7a1bb46")
 	)
 	(gr_rect
 		(start -110.35 1.012499)
@@ -159129,6 +159201,12 @@
 		(members "05b7edc7-06f7-4515-936e-da3f889c3f75" "32fb59d2-6e1b-47f1-9213-b7e4063562d4"
 			"440a8aeb-6d2e-48d8-9b44-c0a23aa81b54" "beea3da3-3025-480a-86cd-9ddff298a8df"
 			"c5e41035-b9ca-4bb6-a673-0cc79bcddcf0" "d7b55233-3bed-47e9-b292-c036f855b56d"
+		)
+	)
+	(group ""
+		(uuid "adac14e1-4480-4bb8-9676-7c6dd9f10918")
+		(members "2768c12c-fda0-49b0-88ba-1217507dd09b" "5582c353-d28d-427d-9f9a-746ec64d5f8b"
+			"61952642-d81c-4361-8ecd-ac14f7a1bb46"
 		)
 	)
 	(group ""
